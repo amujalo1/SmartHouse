@@ -1,0 +1,232 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Documents\\WorkSpace\\C# projects\\SmartHouse\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|c:\\users\\user\\documents\\workspace\\c# projects\\smarthouse\\smarthouse\\composite\\dnevnasoba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\composite\\dnevnasoba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|c:\\users\\user\\documents\\workspace\\c# projects\\smarthouse\\smarthouse\\composite\\kuhinjasoba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\composite\\kuhinjasoba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|c:\\users\\user\\documents\\workspace\\c# projects\\smarthouse\\smarthouse\\composite\\spavacasoba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\composite\\spavacasoba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|c:\\users\\user\\documents\\workspace\\c# projects\\smarthouse\\smarthouse\\composite\\soba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\composite\\soba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|c:\\users\\user\\documents\\workspace\\c# projects\\smarthouse\\smarthouse\\smarthouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\smarthouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|c:\\users\\user\\documents\\workspace\\c# projects\\smarthouse\\smarthouse\\controlers\\osvjetljenje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\controlers\\osvjetljenje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|c:\\users\\user\\documents\\workspace\\c# projects\\smarthouse\\smarthouse\\controlers\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\controlers\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|c:\\users\\user\\documents\\workspace\\c# projects\\smarthouse\\smarthouse\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|c:\\users\\user\\documents\\workspace\\c# projects\\smarthouse\\smarthouse\\ismartcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\ismartcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|c:\\users\\user\\documents\\workspace\\c# projects\\smarthouse\\smarthouse\\controlers\\termostat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\controlers\\termostat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|c:\\users\\user\\documents\\workspace\\c# projects\\smarthouse\\smarthouse\\controlers\\sigurnosnisustav.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\controlers\\sigurnosnisustav.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|c:\\users\\user\\documents\\workspace\\c# projects\\smarthouse\\smarthouse\\smarthouse.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\smarthouse.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 345,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "KuhinjaSoba.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\WorkSpace\\C# projects\\SmartHouse\\SmartHouse\\Composite\\KuhinjaSoba.cs",
+              "RelativeDocumentMoniker": "SmartHouse\\Composite\\KuhinjaSoba.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\WorkSpace\\C# projects\\SmartHouse\\SmartHouse\\Composite\\KuhinjaSoba.cs",
+              "RelativeToolTip": "SmartHouse\\Composite\\KuhinjaSoba.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCYAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T14:01:13.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Device.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\WorkSpace\\C# projects\\SmartHouse\\SmartHouse\\Controlers\\Device.cs",
+              "RelativeDocumentMoniker": "SmartHouse\\Controlers\\Device.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\WorkSpace\\C# projects\\SmartHouse\\SmartHouse\\Controlers\\Device.cs",
+              "RelativeToolTip": "SmartHouse\\Controlers\\Device.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T11:59:00.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SmartHouse.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\WorkSpace\\C# projects\\SmartHouse\\SmartHouse\\SmartHouse.cs",
+              "RelativeDocumentMoniker": "SmartHouse\\SmartHouse.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\WorkSpace\\C# projects\\SmartHouse\\SmartHouse\\SmartHouse.cs",
+              "RelativeToolTip": "SmartHouse\\SmartHouse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADwAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T12:29:44.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\WorkSpace\\C# projects\\SmartHouse\\SmartHouse\\Program.cs",
+              "RelativeDocumentMoniker": "SmartHouse\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\WorkSpace\\C# projects\\SmartHouse\\SmartHouse\\Program.cs",
+              "RelativeToolTip": "SmartHouse\\Program.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAADwvy0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T11:33:05.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Soba.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\WorkSpace\\C# projects\\SmartHouse\\SmartHouse\\Composite\\Soba.cs",
+              "RelativeDocumentMoniker": "SmartHouse\\Composite\\Soba.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\WorkSpace\\C# projects\\SmartHouse\\SmartHouse\\Composite\\Soba.cs",
+              "RelativeToolTip": "SmartHouse\\Composite\\Soba.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T12:43:37.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SpavacaSoba.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\WorkSpace\\C# projects\\SmartHouse\\SmartHouse\\Composite\\SpavacaSoba.cs",
+              "RelativeDocumentMoniker": "SmartHouse\\Composite\\SpavacaSoba.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\WorkSpace\\C# projects\\SmartHouse\\SmartHouse\\Composite\\SpavacaSoba.cs",
+              "RelativeToolTip": "SmartHouse\\Composite\\SpavacaSoba.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T14:00:52.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DnevnaSoba.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\WorkSpace\\C# projects\\SmartHouse\\SmartHouse\\Composite\\DnevnaSoba.cs",
+              "RelativeDocumentMoniker": "SmartHouse\\Composite\\DnevnaSoba.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\WorkSpace\\C# projects\\SmartHouse\\SmartHouse\\Composite\\DnevnaSoba.cs",
+              "RelativeToolTip": "SmartHouse\\Composite\\DnevnaSoba.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T14:02:19.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Osvjetljenje.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\WorkSpace\\C# projects\\SmartHouse\\SmartHouse\\Controlers\\Osvjetljenje.cs",
+              "RelativeDocumentMoniker": "SmartHouse\\Controlers\\Osvjetljenje.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\WorkSpace\\C# projects\\SmartHouse\\SmartHouse\\Controlers\\Osvjetljenje.cs",
+              "RelativeToolTip": "SmartHouse\\Controlers\\Osvjetljenje.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T12:04:39.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ISmartComponent.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\WorkSpace\\C# projects\\SmartHouse\\SmartHouse\\ISmartComponent.cs",
+              "RelativeDocumentMoniker": "SmartHouse\\ISmartComponent.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\WorkSpace\\C# projects\\SmartHouse\\SmartHouse\\ISmartComponent.cs",
+              "RelativeToolTip": "SmartHouse\\ISmartComponent.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T20:24:37.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Termostat.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\WorkSpace\\C# projects\\SmartHouse\\SmartHouse\\Controlers\\Termostat.cs",
+              "RelativeDocumentMoniker": "SmartHouse\\Controlers\\Termostat.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\WorkSpace\\C# projects\\SmartHouse\\SmartHouse\\Controlers\\Termostat.cs",
+              "RelativeToolTip": "SmartHouse\\Controlers\\Termostat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T12:07:18.732Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SigurnosniSustav.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\WorkSpace\\C# projects\\SmartHouse\\SmartHouse\\Controlers\\SigurnosniSustav.cs",
+              "RelativeDocumentMoniker": "SmartHouse\\Controlers\\SigurnosniSustav.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\WorkSpace\\C# projects\\SmartHouse\\SmartHouse\\Controlers\\SigurnosniSustav.cs",
+              "RelativeToolTip": "SmartHouse\\Controlers\\SigurnosniSustav.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-01T12:09:37.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SmartHouse",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\WorkSpace\\C# projects\\SmartHouse\\SmartHouse\\SmartHouse.csproj",
+              "RelativeDocumentMoniker": "SmartHouse\\SmartHouse.csproj",
+              "ToolTip": "C:\\Users\\User\\Documents\\WorkSpace\\C# projects\\SmartHouse\\SmartHouse\\SmartHouse.csproj",
+              "RelativeToolTip": "SmartHouse\\SmartHouse.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-01T11:34:39.995Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
