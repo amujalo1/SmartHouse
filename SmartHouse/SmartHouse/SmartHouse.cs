@@ -1,4 +1,5 @@
 ﻿using SmartHouse.Composite;
+using SmartHouse.Controlers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,57 +8,55 @@ using System.Threading.Tasks;
 
 namespace SmartHouse
 {
-    public class SmartHouse
+    public class SmartHouse : ISmartComponent
     {
-        /*
-        private List<Soba> sobe { get; set; }
-        public SmartHouse()
-        {
-            sobe = new List<Soba>();
+        private readonly string NazivKuce;
+        private readonly string IDKuce;
+        public SmartHouse(string nazivKuce, string idKuce) 
+        { 
+            NazivKuce = nazivKuce;
+            IDKuce = idKuce;
         }
-        public void DodajSobu(Soba soba)
+        public override void prikazDetalja()
         {
-            sobe.Add(soba);
-            Console.WriteLine($"Dodana je prostorija: {soba.NazivSobe}");
-        }
-        public void UkloniSobu(Soba soba)
-        {
-            Soba temp = sobe.Find(x => x.IDSobe == soba.IDSobe);
-            if (temp != null)
+            Console.WriteLine($"ID: {IDKuce},Prostorija: {NazivKuce}");
+            foreach (var component in _components)
             {
-                sobe.Remove(temp);
-                Console.WriteLine($"Ukonjena je prostorija: '{soba.NazivSobe}'");
-            }
-            else
-            {
-                Console.WriteLine($"Prostorija '{soba.NazivSobe}' nije pronađena.");
+                component.prikazDetalja();
             }
         }
 
-        public void ControlDevice(string IDSobe, string deviceId, bool command)
+        public T? NadjiUredjaj<T>(string id) where T : class
         {
-            Soba room = sobe.Find(r => r.IDSobe == IDSobe);
-            if (room != null)
+            foreach (var component in _components)
             {
-                room.ControlDevice(deviceId, command);
-            }
-            else
-            {
-                Console.WriteLine($"Prostorija ID:'{IDSobe}' nije pronađena.");
-            }
-        }
-
-        public void UkupniPrikazStatusa()
-        {
-            Console.WriteLine("Status pametne kuce:");
-            foreach (var soba in sobe)
-            {
-                Console.WriteLine($"Prostorija: {soba.NazivSobe}");
-                foreach (var device in soba.devices)
+                if (component is T specificDevice && (specificDevice as Device)?.isEqualId(id) == true)
                 {
-                    Console.WriteLine($"  Uređaj: {device.Naziv}, Status: {device.GetStatus()}");
+                    return specificDevice;
+                }
+
+                if (component is Soba soba)
+                {
+                    var result = soba.NadjiUredjaj<T>(id);
+                    if (result != null) return result;
                 }
             }
-        }*/
+            Console.WriteLine($"Uredjaj sa ID: {id} nije pronadjen!");
+            return null;
+        }
+        public T? NadjiSoba<T>(string id) where T : class
+        {
+            foreach (var component in _components)
+            {
+                if (component is T specificDevice && (specificDevice as Soba)?.isEqualId(id) == true)
+                {
+                    return specificDevice;
+                }
+            }
+            Console.WriteLine($"Soba sa ID: {id} nije pronadjen!");
+            return null;
+        }
+
+
     }
 }

@@ -12,3 +12,18 @@ C:\Users\User\Documents\WorkSpace\C# projects\SmartHouse\SmartHouse\obj\Debug\ne
 C:\Users\User\Documents\WorkSpace\C# projects\SmartHouse\SmartHouse\obj\Debug\net6.0\SmartHouse.pdb
 C:\Users\User\Documents\WorkSpace\C# projects\SmartHouse\SmartHouse\obj\Debug\net6.0\SmartHouse.genruntimeconfig.cache
 C:\Users\User\Documents\WorkSpace\C# projects\SmartHouse\SmartHouse\obj\Debug\net6.0\ref\SmartHouse.dll
+C:\Users\User\Documents\GitHub\SmartHome\SmartHouse\SmartHouse\bin\Debug\net6.0\SmartHouse.exe
+C:\Users\User\Documents\GitHub\SmartHome\SmartHouse\SmartHouse\bin\Debug\net6.0\SmartHouse.deps.json
+C:\Users\User\Documents\GitHub\SmartHome\SmartHouse\SmartHouse\bin\Debug\net6.0\SmartHouse.runtimeconfig.json
+C:\Users\User\Documents\GitHub\SmartHome\SmartHouse\SmartHouse\bin\Debug\net6.0\SmartHouse.dll
+C:\Users\User\Documents\GitHub\SmartHome\SmartHouse\SmartHouse\bin\Debug\net6.0\SmartHouse.pdb
+C:\Users\User\Documents\GitHub\SmartHome\SmartHouse\SmartHouse\obj\Debug\net6.0\SmartHouse.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\GitHub\SmartHome\SmartHouse\SmartHouse\obj\Debug\net6.0\SmartHouse.AssemblyInfoInputs.cache
+C:\Users\User\Documents\GitHub\SmartHome\SmartHouse\SmartHouse\obj\Debug\net6.0\SmartHouse.AssemblyInfo.cs
+C:\Users\User\Documents\GitHub\SmartHome\SmartHouse\SmartHouse\obj\Debug\net6.0\SmartHouse.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\GitHub\SmartHome\SmartHouse\SmartHouse\obj\Debug\net6.0\SmartHouse.sourcelink.json
+C:\Users\User\Documents\GitHub\SmartHome\SmartHouse\SmartHouse\obj\Debug\net6.0\SmartHouse.dll
+C:\Users\User\Documents\GitHub\SmartHome\SmartHouse\SmartHouse\obj\Debug\net6.0\refint\SmartHouse.dll
+C:\Users\User\Documents\GitHub\SmartHome\SmartHouse\SmartHouse\obj\Debug\net6.0\SmartHouse.pdb
+C:\Users\User\Documents\GitHub\SmartHome\SmartHouse\SmartHouse\obj\Debug\net6.0\SmartHouse.genruntimeconfig.cache
+C:\Users\User\Documents\GitHub\SmartHome\SmartHouse\SmartHouse\obj\Debug\net6.0\ref\SmartHouse.dll

@@ -1,7 +1,7 @@
 ﻿namespace SmartHouse.Controlers
 {
     // Leaf
-    public abstract class Device : ISmartComponent
+    public class Device : ISmartComponent
     {
         protected readonly string Id;
         protected readonly string Naziv;
@@ -14,6 +14,7 @@
             IsOn = isOn;
         }
 
+        public bool isEqualId(string id) { return Id.Equals(id); }
         public virtual void TurnOn()
         {
             IsOn = true;
@@ -24,9 +25,7 @@
             IsOn = false;
         }
 
-        public abstract void GetStatus();
-
-        public virtual void PrikazDetalja()
+        public override void prikazDetalja()
         {
             Console.WriteLine($"- ID: {Id}, Uređaj: {Naziv}, Status: {(IsOn ? "Uključen" : "Isključen")}");
         }

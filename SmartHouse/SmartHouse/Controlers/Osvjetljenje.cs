@@ -10,9 +10,11 @@ namespace SmartHouse.Controlers
     public class Osvjetljenje : Device
     {
         public int JacinaSvjetla { get; private set; } 
-        public Osvjetljenje(string id, string naziv, bool isOn, int jacina) : base(id,naziv,isOn)
+        public string bojaSvjetla { get; private set; }
+        public Osvjetljenje(string id, string naziv, bool isOn, int jacina=0, string boja = "#FFFFFF") : base(id,naziv,isOn)
         {   
             JacinaSvjetla = jacina;
+            bojaSvjetla = boja;
         }
 
         public void PodesiJacinuSvjetla(int jacina)
@@ -28,17 +30,20 @@ namespace SmartHouse.Controlers
             }
         }
 
-        public override void GetStatus()
+        public void PostaviBojuOsvjetljenja(string boja)
         {
-            Console.WriteLine($"- Osvjetljenje ID: {Id}");
-            Console.WriteLine($"- Naziv: {Naziv}");
-            Console.WriteLine($"- trenutni status: {IsOn}");
+            bojaSvjetla = boja;
+            Console.WriteLine($"Postavljena boja svjetla na {bojaSvjetla}");
         }
+
 
         public override void prikazDetalja()
         {
-            base.PrikazDetalja();
-            Console.WriteLine($"Jačina svjetla: {JacinaSvjetla}%");
+            base.prikazDetalja();
+            Console.WriteLine($"- Osvjetljenje ID: {Id}");
+            Console.WriteLine($"- Naziv: {Naziv}");
+            Console.WriteLine($"- Jačina svjetla: {JacinaSvjetla}%");
+
         }
     }
 }

@@ -9,42 +9,70 @@ namespace SmartHouse
         static void Main(string[] args)
         {
             //  client
-            ISmartComponent soba1 = new DnevnaSoba("Dnevni boravak", "123a04w1", true);
-            ISmartComponent uredjaj1 = new Osvjetljenje("os1", "svijetlo plafon", true, 100);
-            ISmartComponent uredjaj2 = new Termostat("te1", "termostat za bojler", true);
-            ISmartComponent uredjaj3 = new Termostat("te2", "termostat za bojler2", false);
+            SmartHouse smartKuca = new SmartHouse("MojDom", "m13jas352");
+            Device kucnoGrijanje = new Grijanje("gr1n1","kucno grijanje", true);
+            smartKuca.Add(kucnoGrijanje);
 
-            soba1.Add(uredjaj1);
-            soba1.Add(uredjaj2);
-            soba1.Add(uredjaj3);
-            soba1.Remove(uredjaj3);
+            smartKuca.NadjiUredjaj<Grijanje>("gr1n1")?.PostaviZeljenuTemperaturu(32);
+            Device rasvjeta = new Osvjetljenje("os1n1", "vanjsa rasvjeta",false);
+            SigurnosniSustav Osmica = new SigurnosniSustav("osa1", "sigurnosni uredjaj", true);
+            Osmica.AktivirajKameru();
 
-            ISmartComponent soba2 = new Kuhinja("Kuhinja", "kuh123asd", true);
+            smartKuca.Add(rasvjeta);
+            smartKuca.Add(Osmica);
+            smartKuca.NadjiUredjaj<Osvjetljenje>("os1n1")?.PodesiJacinuSvjetla(100);
+
+            Soba soba1 = new Soba("Dnevni boravak", "s1");
+            ISmartComponent televizija = new TV("tv1", "televizija dnevni", true);
+            ISmartComponent klima = new HVAC("kl1", "klima dnevni", true);
+            ISmartComponent svjetlo1 = new Osvjetljenje("os2n1", "svjetlo dnevni", true);
+            ISmartComponent grijanje1 = new Grijanje("gr2n1", "dnevno grijanje", true);
+
+            soba1.Add(televizija);
+            soba1.Add(klima);
+            soba1.Add(svjetlo1);
+            soba1.Add(grijanje1);
+
+            soba1.NadjiUredjaj<TV>("tv1")?.PromeniKanal(10);
+            soba1.NadjiUredjaj<Device>("kl1")?.TurnOff();
+
+            Kuhinja soba2 = new Kuhinja("Kuhinja", "k1");
+            ISmartComponent grijanje2 = new Grijanje("gr2n2", "kuhinsko grijanje", true);
+            ISmartComponent plinBojler = new Device("pl1", "plin kuhinja", false);
+
+            soba2.Add(grijanje2);
+            soba2.Add(plinBojler);
+
             soba1.Add(soba2);
+            soba1.NadjiSoba<Kuhinja>("k1")?.PreheatOven(250);
 
-            ISmartComponent uredjaj4 = new Termostat("te2", "termostat za bojler2", false);
-            soba2.Add(uredjaj4);
+            Soba soba3 = new SpavacaSoba("Spavaca soba", "sp1");
+            ISmartComponent klimaSpavaca = new HVAC("kl2", "klima spavaca", true);
+            ISmartComponent svjetlo3 = new Osvjetljenje("os3n1", "svjetlo spavaca", true);
+            ISmartComponent grijanje3 = new Grijanje("gr3n1", "dnevno spavaca", true);
 
-            ISmartComponent soba3 = new SpavacaSoba("Spavaca", "spav123a3", false);
-            soba1.Add(soba3);
+            soba3.Add(klimaSpavaca);
+            soba3.Add(svjetlo3);
+            soba3.Add(grijanje3);
 
-            ISmartComponent uredjaj5 = new SigurnosniSustav("sig1", "brava", false);
-            soba3.Add(uredjaj5);
+            Soba soba4 = new KupatiloSoba("Kupatilo", "WC1");
+            ISmartComponent ventilacija = new HVAC("kl2", "ventilacija WC", true);
+            ISmartComponent svjetlo4 = new Osvjetljenje("os4n1", "svjetlo WC", true);
 
-            Console.WriteLine("Soba1: ");
+            soba4.Add(ventilacija);
+            soba4.Add(svjetlo4);
+
+            smartKuca.Add(soba1);
+            smartKuca.Add(soba3);
+            smartKuca.Add(soba4);
+
+
+            Console.WriteLine("smartKuca: ");
             Console.WriteLine("-----------------------------------------");
-            soba1.prikazDetalja();
+            smartKuca.prikazDetalja();
             Console.WriteLine("-----------------------------------------");
 
-            Console.WriteLine("Soba2: ");
-            Console.WriteLine("-----------------------------------------");
-            soba2.prikazDetalja();
-            Console.WriteLine("-----------------------------------------");
-
-            Console.WriteLine("Soba3: ");
-            Console.WriteLine("-----------------------------------------");
-            soba3.prikazDetalja();
-            Console.WriteLine("-----------------------------------------");
+            
 
         }
     }

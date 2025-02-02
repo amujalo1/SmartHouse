@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Documents\\WorkSpace\\C# projects\\SmartHouse\\SmartHouse\\SmartHouse.csproj": {}
+    "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\SmartHouse.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Documents\\WorkSpace\\C# projects\\SmartHouse\\SmartHouse\\SmartHouse.csproj": {
+    "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\SmartHouse.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\WorkSpace\\C# projects\\SmartHouse\\SmartHouse\\SmartHouse.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\SmartHouse.csproj",
         "projectName": "SmartHouse",
-        "projectPath": "C:\\Users\\User\\Documents\\WorkSpace\\C# projects\\SmartHouse\\SmartHouse\\SmartHouse.csproj",
+        "projectPath": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\SmartHouse.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\WorkSpace\\C# projects\\SmartHouse\\SmartHouse\\obj\\",
+        "outputPath": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
