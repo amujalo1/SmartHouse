@@ -40,9 +40,9 @@ namespace SmartHouse.Controlers
         public override void prikazDetalja()
         {
             base.prikazDetalja();
-            Console.WriteLine($"- Osvjetljenje ID: {Id}");
-            Console.WriteLine($"- Naziv: {Naziv}");
-            Console.WriteLine($"- Jačina svjetla: {JacinaSvjetla}%");
+            Console.WriteLine($" - Osvjetljenje ID: {Id}");
+            Console.WriteLine($" - Naziv: {Naziv}");
+            Console.WriteLine($" - Jačina svjetla: {JacinaSvjetla}%");
 
         }
     }

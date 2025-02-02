@@ -8,16 +8,27 @@ using System.Threading.Tasks;
 
 namespace SmartHouse
 {
-    public class SmartHouse : ISmartComponent
+    public class SmartHouse
     {
         private readonly string NazivKuce;
         private readonly string IDKuce;
+
+        protected List<ISmartComponent> _components = new List<ISmartComponent>();
+
+        public virtual void Add(ISmartComponent component)
+        {
+            _components.Add(component);
+        }
+        public virtual void Remove(ISmartComponent component)
+        {
+            _components.Remove(component);
+        }
         public SmartHouse(string nazivKuce, string idKuce) 
         { 
             NazivKuce = nazivKuce;
             IDKuce = idKuce;
         }
-        public override void prikazDetalja()
+        public void prikazDetalja()
         {
             Console.WriteLine($"ID: {IDKuce},Prostorija: {NazivKuce}");
             foreach (var component in _components)
@@ -57,6 +68,14 @@ namespace SmartHouse
             return null;
         }
 
+        public void sveIskljuci()
+        {
+            foreach (var component in _components)
+            {
+                (component as Soba)?.sveIskljuci();
+                (component as Device)?.TurnOff();
+            }
+        }
 
     }
 }

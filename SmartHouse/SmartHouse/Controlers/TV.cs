@@ -69,10 +69,10 @@ namespace SmartHouse.Controlers
         public override void prikazDetalja()
         {
             base.prikazDetalja();
-            Console.WriteLine($"- Televizor ID: {Id}");
-            Console.WriteLine($"- Naziv: {Naziv}");
-            Console.WriteLine($"- Trenutni kanal: {TrenutniKanal}");
-            Console.WriteLine($"- Jačina zvuka: {JacinaZvuka} {(IsMuted ? "(Muted)" : "")}");
+            Console.WriteLine($" - Televizor ID: {Id}");
+            Console.WriteLine($" - Naziv: {Naziv}");
+            Console.WriteLine($" - Trenutni kanal: {TrenutniKanal}");
+            Console.WriteLine($" - Jačina zvuka: {JacinaZvuka} {(IsMuted ? "(Muted)" : "")}");
         }
     }
 }

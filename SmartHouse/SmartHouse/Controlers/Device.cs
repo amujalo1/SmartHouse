@@ -29,7 +29,14 @@
         {
             Console.WriteLine($"- ID: {Id}, Uređaj: {Naziv}, Status: {(IsOn ? "Uključen" : "Isključen")}");
         }
+        public virtual void Add(ISmartComponent component)
+        {
+            throw new NotImplementedException();
+        }
+        public virtual void Remove(ISmartComponent component)
+        {
+            throw new NotImplementedException();
+        }
 
-        
     }
 }

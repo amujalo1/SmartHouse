@@ -17,10 +17,18 @@ namespace SmartHouse.Composite
 
         public override void prikazDetalja()
         {
-            Console.WriteLine($"ID: {IDSobe},Prostorija: {NazivSobe}");
+            Console.WriteLine($"+ ID: {IDSobe},Prostorija: {NazivSobe}");
             foreach (var component in _components)
             {
                 component.prikazDetalja();     
+            }
+        }
+
+        public void sveIskljuci()
+        {
+            foreach (var component in _components)
+            {
+                (component as Device)?.TurnOff();
             }
         }
 

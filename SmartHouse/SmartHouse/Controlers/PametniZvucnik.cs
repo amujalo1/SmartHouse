@@ -14,7 +14,7 @@ namespace SmartHouse.Controlers
 
         public PametniZvucnik(string id, string naziv, bool isOn) : base(id, naziv, isOn)
         {
-            Glasnoća = 50; // Zadana glasnoća
+            Glasnoća = 50;
             JeLiSviranjeAktivno = false;
             TrenutnaPjesma = "";
         }
@@ -62,10 +62,10 @@ namespace SmartHouse.Controlers
         public override void prikazDetalja()
         {
             base.prikazDetalja();
-            Console.WriteLine($"- Pametni zvučnik ID: {Id}");
-            Console.WriteLine($"- Naziv: {Naziv}");
-            Console.WriteLine($"- Glasnoća: {Glasnoća}%");
-            Console.WriteLine($"- Trenutna pjesma: {(JeLiSviranjeAktivno ? TrenutnaPjesma : "Nema reprodukcije")}");
+            Console.WriteLine($" - Pametni zvučnik ID: {Id}");
+            Console.WriteLine($" - Naziv: {Naziv}");
+            Console.WriteLine($" - Glasnoća: {Glasnoća}%");
+            Console.WriteLine($" - Trenutna pjesma: {(JeLiSviranjeAktivno ? TrenutnaPjesma : "Nema reprodukcije")}");
         }
     }
 }

@@ -9,7 +9,7 @@ namespace SmartHouse.Composite
     public class GarazaSoba : Soba
     {
         public bool HasCar { get; private set; }
-        public GarazaSoba(string nazivSobe, string idSobe, bool hasCar) : base(nazivSobe, idSobe)
+        public GarazaSoba(string nazivSobe, string idSobe, bool hasCar = false) : base(nazivSobe, idSobe)
         {
             HasCar = hasCar;
         }

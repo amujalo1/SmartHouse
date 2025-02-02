@@ -61,11 +61,11 @@ namespace SmartHouse.Controlers
         public override void prikazDetalja()
         {
             base.prikazDetalja();
-            Console.WriteLine($"- KlimaVentilacija ID: {Id}");
-            Console.WriteLine($"- Naziv: {Naziv}");
-            Console.WriteLine($"- Brzina ventilatora: {BrzinaVentilatora}");
-            Console.WriteLine($"- Trenutna temperatura: {TrenutnaTemperatura}°C");
-            Console.WriteLine($"- Željena temperatura: {ZeljenaTemperatura}°C");
+            Console.WriteLine($" - KlimaVentilacija ID: {Id}");
+            Console.WriteLine($" - Naziv: {Naziv}");
+            Console.WriteLine($" - Brzina ventilatora: {BrzinaVentilatora}");
+            Console.WriteLine($" - Trenutna temperatura: {TrenutnaTemperatura}°C");
+            Console.WriteLine($" - Željena temperatura: {ZeljenaTemperatura}°C");
         }
     }
 }

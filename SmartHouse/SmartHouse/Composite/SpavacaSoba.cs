@@ -9,16 +9,13 @@ namespace SmartHouse.Composite
 {
     public class SpavacaSoba : Soba
     {
-        // Dodatna svojstva
         public bool HasAlarm { get; private set; }
 
-        // Konstruktor
         public SpavacaSoba(string roomName, string id,bool hasAlarm = false) : base(roomName, id)
         {
             HasAlarm = hasAlarm;
         }
 
-        // Metoda za postavljanje alarma
         public void SetAlarm(DateTime time)
         {
             if (HasAlarm)
@@ -31,7 +28,6 @@ namespace SmartHouse.Composite
             }
         }
 
-        // Implementacija apstraktne metode za prikaz informacija o prostoriji
         public override void prikazDetalja()
         {
             Console.WriteLine($"Prostorija: {NazivSobe} (Spavaća soba)");

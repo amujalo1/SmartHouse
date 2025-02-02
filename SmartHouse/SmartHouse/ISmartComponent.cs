@@ -13,11 +13,11 @@ namespace SmartHouse
 
         public abstract void prikazDetalja();
 
-        public void Add(ISmartComponent component)
+        public virtual void Add(ISmartComponent component)
         {
             _components.Add(component);
         }
-        public void Remove(ISmartComponent component)
+        public virtual void Remove(ISmartComponent component)
         {
             _components.Remove(component);
         }

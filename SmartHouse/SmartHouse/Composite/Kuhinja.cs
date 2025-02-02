@@ -8,16 +8,13 @@ namespace SmartHouse.Composite
 {
     public class Kuhinja : Soba
     {
-        // Dodatna svojstva
         public bool HasOven { get; private set; }
 
-        // Konstruktor
         public Kuhinja(string roomName,string id, bool hasOven = false) : base(roomName,id)
         {
             HasOven = hasOven;
         }
 
-        // Metoda za zagrijavanje pećnice
         public void PreheatOven(int temperature)
         {
             if (HasOven)
@@ -30,7 +27,6 @@ namespace SmartHouse.Composite
             }
         }
 
-        // Implementacija apstraktne metode za prikaz informacija o prostoriji
         public override void prikazDetalja()
         {
             Console.WriteLine($"Prostorija: {NazivSobe} (Kuhinja)");

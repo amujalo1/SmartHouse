@@ -1,7 +1,6 @@
 ﻿using SmartHouse.Composite;
 using SmartHouse.Controlers;
 using System;
-
 namespace SmartHouse
 {
     class Program
@@ -72,7 +71,172 @@ namespace SmartHouse
             smartKuca.prikazDetalja();
             Console.WriteLine("-----------------------------------------");
 
-            
+            smartKuca.sveIskljuci();
+            Console.WriteLine("smartKuca: ");
+            Console.WriteLine("-----------------------------------------");
+            smartKuca.prikazDetalja();
+            Console.WriteLine("-----------------------------------------");
+
+
+            Dictionary<string, SmartHouse> kuce = new Dictionary<string, SmartHouse>();
+            string input;
+
+            while (true)
+            {
+                Console.Write("Unesite komandu: ");
+                input = Console.ReadLine();
+
+                if (input.ToLower() == "exit")
+                    break;
+
+                string[] parts = input.Split(' ');
+                if (parts.Length < 2)
+                {
+                    Console.WriteLine("Neispravna komanda.");
+                    continue;
+                }
+
+                string command = parts[0];
+                string id = parts[1];
+
+                switch (command)
+                {
+                    case "dodajKucu":
+                        if (parts.Length < 3)
+                        {
+                            Console.WriteLine("Neispravna komanda. Format: dodajKucu id naziv");
+                            continue;
+                        }
+                        string nazivKuce = parts[2];
+                        kuce[id] = new SmartHouse(nazivKuce, id);
+                        Console.WriteLine($"Kuća {nazivKuce} dodana.");
+                        break;
+
+                    case "dodajSobu":
+                        if (parts.Length < 4)
+                        {
+                            Console.WriteLine("Neispravna komanda. Format: dodajSobu idKuce idSobe nazivSobe");
+                            continue;
+                        }
+                        string idSobe = parts[2];
+                        string nazivSobe = parts[3];
+                        if (kuce.ContainsKey(id))
+                        {
+                            kuce[id].Add(new Soba(nazivSobe, idSobe));
+                            Console.WriteLine($"Soba {nazivSobe} dodana u kuću .");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Kuća nije pronađena.");
+                        }
+                        break;
+
+                    case "dodajUredjaj":
+                        if (parts.Length < 5)
+                        {
+                            Console.WriteLine("Neispravna komanda. Format: dodajUredjaj idKuce idSobe idUredjaja nazivUredjaja [tip]");
+                            Console.WriteLine("Dostupni tipovi: Grijanje, HVAC, Osvjetljenje, PametniZvucnik, SigurnosniSustav, TV");
+                            continue;
+                        }
+
+                        string idSobeUredjaj = parts[2];
+                        string idUredjaja = parts[3];
+                        string nazivUredjaja = parts[4];
+                        string tipUredjaja = parts.Length > 5 ? parts[5] : "Device"; 
+
+                        if (!kuce.ContainsKey(id))
+                        {
+                            Console.WriteLine("Kuća nije pronađena.");
+                            continue;
+                        }
+
+                        Device uredjaj = null;
+
+                        switch (tipUredjaja.ToLower())
+                        {
+                            case "grijanje":
+                                uredjaj = new Grijanje(idUredjaja, nazivUredjaja, true);
+                                break;
+                            case "hvac":
+                                uredjaj = new HVAC(idUredjaja, nazivUredjaja, true);
+                                break;
+                            case "osvjetljenje":
+                                uredjaj = new Osvjetljenje(idUredjaja, nazivUredjaja, true);
+                                break;
+                            case "pametnizvucnik":
+                                uredjaj = new PametniZvucnik(idUredjaja, nazivUredjaja, true);
+                                break;
+                            case "sigurnosnisustav":
+                                uredjaj = new SigurnosniSustav(idUredjaja, nazivUredjaja, true);
+                                break;
+                            case "tv":
+                                uredjaj = new TV(idUredjaja, nazivUredjaja, true);
+                                break;
+                            case "device":
+                            default:
+                                uredjaj = new Device(idUredjaja, nazivUredjaja, true);
+                                break;
+                        }
+
+                        if (kuce[id].NadjiSoba<Soba>(idSobeUredjaj) != null)
+                        {
+                            kuce[id].NadjiSoba<Soba>(idSobeUredjaj).Add(uredjaj);
+                            Console.WriteLine($"Uređaj {nazivUredjaja} (tip: {tipUredjaja}) dodan u sobu {idSobeUredjaj}.");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Soba nije pronađena.");
+                        }
+                        break;
+
+                    case "Tree":
+                        if (kuce.ContainsKey(id))
+                        {
+                            kuce[id].prikazDetalja();
+                        }
+                        else
+                        {
+                            Console.WriteLine("Kuća nije pronađena.");
+                        }
+                        break;
+
+                    case "iskljuciSve":
+                        if (kuce.ContainsKey(id))
+                        {
+                            kuce[id].sveIskljuci();
+                            Console.WriteLine($"Svi uređaji u kući  su isključeni.");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Kuća nije pronađena.");
+                        }
+                        break;
+
+                    case "jacinaSvjetla":
+                        if (parts.Length < 3)
+                        {
+                            Console.WriteLine("Neispravna komanda. Format: jacinaSvjetla idUredjaja jacina");
+                            continue;
+                        }
+                        string jacina = parts[2];
+                        foreach (var kuca in kuce.Values)
+                        {
+                            var svjetlo = kuca.NadjiUredjaj<Osvjetljenje>(id);
+                            if (svjetlo != null)
+                            {
+                                svjetlo.PodesiJacinuSvjetla(int.Parse(jacina));
+                                Console.WriteLine($"Jačina svjetla uređaja {id} postavljena na {jacina}.");
+                                break;
+                            }
+                        }
+                        break;
+
+                    default:
+                        Console.WriteLine("Nepoznata komanda.");
+                        break;
+                }
+            }
+
 
         }
     }
