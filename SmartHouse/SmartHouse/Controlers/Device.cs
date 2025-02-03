@@ -13,8 +13,7 @@
         public override void prikazDetalja()
         {
             Console.WriteLine($"- ID: {ID}, Uređaj: {Naziv}, Status: {(IsOn ? "Uključen" : "Isključen")}");
-        }
-        public bool isEqualId(string id) { return ID.Equals(id); }        
+        }        
 
         public override void iskljuci()
         {
@@ -25,5 +24,7 @@
         {
             IsOn = true;
         }
+
+        
     }
 }

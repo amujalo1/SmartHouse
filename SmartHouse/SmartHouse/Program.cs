@@ -12,14 +12,14 @@ namespace SmartHouse
             Device kucnoGrijanje = new Grijanje("gr1n1","kucno grijanje", true);
             smartKuca.Add(kucnoGrijanje);
 
-            smartKuca.NadjiUredjaj<Grijanje>("gr1n1")?.PostaviZeljenuTemperaturu(32);
+            smartKuca.NadjiKomponentu<Grijanje>("gr1n1")?.PostaviZeljenuTemperaturu(32);
             Device rasvjeta = new Osvjetljenje("os1n1", "vanjsa rasvjeta",false);
             SigurnosniSustav Osmica = new SigurnosniSustav("osa1", "sigurnosni uredjaj", true);
             Osmica.AktivirajKameru();
 
             smartKuca.Add(rasvjeta);
             smartKuca.Add(Osmica);
-            smartKuca.NadjiUredjaj<Osvjetljenje>("os1n1")?.PodesiJacinuSvjetla(100);
+            smartKuca.NadjiKomponentu<Osvjetljenje>("os1n1")?.PodesiJacinuSvjetla(100);
 
             Objekat soba1 = new Objekat("Dnevni boravak", "s1");
             ASmartComponent televizija = new TV("tv1", "televizija dnevni", true);
@@ -32,8 +32,8 @@ namespace SmartHouse
             soba1.Add(svjetlo1);
             soba1.Add(grijanje1);
 
-            soba1.NadjiUredjaj<TV>("tv1")?.PromeniKanal(10);
-            soba1.NadjiUredjaj<Device>("kl1")?.iskljuci();
+            soba1.NadjiKomponentu<TV>("tv1")?.PromeniKanal(10);
+            soba1.NadjiKomponentu<Device>("kl1")?.iskljuci();
 
             Kuhinja soba2 = new Kuhinja("Kuhinja", "k1");
             ASmartComponent grijanje2 = new Grijanje("gr2n2", "kuhinsko grijanje", true);
@@ -43,7 +43,7 @@ namespace SmartHouse
             soba2.Add(plinBojler);
 
             soba1.Add(soba2);
-            soba1.NadjiSoba<Kuhinja>("k1")?.PreheatOven(250);
+            soba1.NadjiKomponentu<Kuhinja>("k1")?.PreheatOven(250);
 
             Objekat soba3 = new SpavacaSoba("Spavaca soba", "sp1");
             ASmartComponent klimaSpavaca = new HVAC("kl2", "klima spavaca", true);
@@ -76,8 +76,11 @@ namespace SmartHouse
             Console.WriteLine("-----------------------------------------");
             smartKuca.prikazDetalja();
             Console.WriteLine("-----------------------------------------");
-
-
+            for(int i =0; i<100; i++)
+            {
+                Console.WriteLine("\n");
+            }
+            
             Dictionary<string, Objekat> kuce = new Dictionary<string, Objekat>();
             string input;
 
@@ -178,9 +181,9 @@ namespace SmartHouse
                                 break;
                         }
 
-                        if (kuce[id].NadjiSoba<Objekat>(idSobeUredjaj) != null)
+                        if (kuce[id].NadjiKomponentu<Objekat>(idSobeUredjaj) != null)
                         {
-                            kuce[id].NadjiSoba<Objekat>(idSobeUredjaj).Add(uredjaj);
+                            kuce[id].NadjiKomponentu<Objekat>(idSobeUredjaj)?.Add(uredjaj);
                             Console.WriteLine($"Uređaj {nazivUredjaja} (tip: {tipUredjaja}) dodan u sobu {idSobeUredjaj}.");
                         }
                         else
@@ -221,7 +224,7 @@ namespace SmartHouse
                         string jacina = parts[2];
                         foreach (var kuca in kuce.Values)
                         {
-                            var svjetlo = kuca.NadjiUredjaj<Osvjetljenje>(id);
+                            var svjetlo = kuca.NadjiKomponentu<Osvjetljenje>(id);
                             if (svjetlo != null)
                             {
                                 svjetlo.PodesiJacinuSvjetla(int.Parse(jacina));

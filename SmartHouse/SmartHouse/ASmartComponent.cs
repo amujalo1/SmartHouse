@@ -22,5 +22,8 @@ namespace SmartHouse
         public abstract void iskljuci();
         public abstract void ukljuci();
 
+        public bool isEqualId(string id) { return ID.Equals(id); }
+
+
     }
 }
