@@ -39,7 +39,7 @@ namespace SmartHouse.Controlers
         public override void prikazDetalja()
         {
             base.prikazDetalja();
-            Console.WriteLine($" - Grijanje ID: {Id}");
+            Console.WriteLine($" - Grijanje ID: {ID}");
             Console.WriteLine($" - Naziv: {Naziv}");
             Console.WriteLine($" - Trenutna temperatura: {TrenutnaTemperatura}°C");
             Console.WriteLine($" - Željena temperatura: {ZeljenaTemperatura}°C");

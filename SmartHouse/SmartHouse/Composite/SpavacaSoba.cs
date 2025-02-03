@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SmartHouse.Composite
 {
-    public class SpavacaSoba : Soba
+    public class SpavacaSoba : Objekat
     {
         public bool HasAlarm { get; private set; }
 
@@ -20,17 +20,17 @@ namespace SmartHouse.Composite
         {
             if (HasAlarm)
             {
-                Console.WriteLine($"Alarm postavljen u prostoriji '{NazivSobe}' za {time.ToShortTimeString()}.");
+                Console.WriteLine($"Alarm postavljen u prostoriji '{Naziv}' za {time.ToShortTimeString()}.");
             }
             else
             {
-                Console.WriteLine($"Prostorija '{NazivSobe}' nema alarm.");
+                Console.WriteLine($"Prostorija '{Naziv}' nema alarm.");
             }
         }
 
         public override void prikazDetalja()
         {
-            Console.WriteLine($"Prostorija: {NazivSobe} (Spavaća soba)");
+            Console.WriteLine($"Prostorija: {Naziv} (Spavaća soba)");
             Console.WriteLine($"Ima alarm: {(HasAlarm ? "Da" : "Ne")}");
             Console.WriteLine($"Broj uređaja: {_components.Count}");
             base.prikazDetalja();

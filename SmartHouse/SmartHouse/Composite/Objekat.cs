@@ -2,33 +2,31 @@
 
 namespace SmartHouse.Composite
 {
-    public class Soba : ISmartComponent
+    public class Objekat : ASmartComponent
     {
-        protected string NazivSobe;
-        private readonly string IDSobe;
 
-        public Soba(string nazivSobe, string idSobe)
+        protected List<ASmartComponent> _components = new List<ASmartComponent>();
+
+        public virtual void Add(ASmartComponent component)
         {
-            NazivSobe = nazivSobe;
-            IDSobe = idSobe;
+            _components.Add(component);
+        }
+        public virtual void Remove(ASmartComponent component)
+        {
+            _components.Remove(component);
         }
 
-        public bool isEqualId(string id) { return IDSobe.Equals(id); }
+
+        public Objekat(string nazivSobe, string idSobe) : base(nazivSobe, idSobe) { }
+
+        public bool isEqualId(string id) { return ID.Equals(id); }
 
         public override void prikazDetalja()
         {
-            Console.WriteLine($"+ ID: {IDSobe},Prostorija: {NazivSobe}");
+            Console.WriteLine($"+ ID: {ID},Prostorija: {Naziv}");
             foreach (var component in _components)
             {
                 component.prikazDetalja();     
-            }
-        }
-
-        public void sveIskljuci()
-        {
-            foreach (var component in _components)
-            {
-                (component as Device)?.TurnOff();
             }
         }
 
@@ -41,7 +39,7 @@ namespace SmartHouse.Composite
                     return specificDevice;
                 }
 
-                if (component is Soba soba)
+                if (component is Objekat soba)
                 {
                     var result = soba.NadjiUredjaj<T>(id);
                     if (result != null) return result;
@@ -55,7 +53,7 @@ namespace SmartHouse.Composite
         {
             foreach (var component in _components)
             {
-                if (component is T specificDevice && (specificDevice as Soba)?.isEqualId(id) == true)
+                if (component is T specificDevice && (specificDevice as Objekat)?.isEqualId(id) == true)
                 {
                     return specificDevice;
                 }
@@ -64,5 +62,20 @@ namespace SmartHouse.Composite
             return null;
         }
 
+        public override void iskljuci()
+        {
+            foreach (var component in _components)
+            {
+                component.iskljuci();
+            }
+        }
+
+        public override void ukljuci()
+        {
+            foreach (var component in _components)
+            {
+                component.ukljuci();
+            }
+        }
     }
 }

@@ -79,7 +79,7 @@ namespace SmartHouse.Controlers
         public override void prikazDetalja()
         {
             base.prikazDetalja();
-            Console.WriteLine($" - Sigurnosni Sustav ID: {Id}");
+            Console.WriteLine($" - Sigurnosni Sustav ID: {ID}");
             Console.WriteLine($" - Naziv: {Naziv}");
             Console.WriteLine($" - Alarm: {(AlarmAktiviran ? "Aktiviran" : "Nije aktiviran")}");
             Console.WriteLine($" - Kamera: {(KameraAktivna ? "Aktivna" : "Neaktivna")}");

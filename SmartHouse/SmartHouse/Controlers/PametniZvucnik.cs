@@ -62,7 +62,7 @@ namespace SmartHouse.Controlers
         public override void prikazDetalja()
         {
             base.prikazDetalja();
-            Console.WriteLine($" - Pametni zvučnik ID: {Id}");
+            Console.WriteLine($" - Pametni zvučnik ID: {ID}");
             Console.WriteLine($" - Naziv: {Naziv}");
             Console.WriteLine($" - Glasnoća: {Glasnoća}%");
             Console.WriteLine($" - Trenutna pjesma: {(JeLiSviranjeAktivno ? TrenutnaPjesma : "Nema reprodukcije")}");

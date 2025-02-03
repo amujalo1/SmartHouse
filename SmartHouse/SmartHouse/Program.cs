@@ -8,7 +8,7 @@ namespace SmartHouse
         static void Main(string[] args)
         {
             //  client
-            SmartHouse smartKuca = new SmartHouse("MojDom", "m13jas352");
+            Objekat smartKuca = new Objekat("MojDom", "m13jas352");
             Device kucnoGrijanje = new Grijanje("gr1n1","kucno grijanje", true);
             smartKuca.Add(kucnoGrijanje);
 
@@ -21,11 +21,11 @@ namespace SmartHouse
             smartKuca.Add(Osmica);
             smartKuca.NadjiUredjaj<Osvjetljenje>("os1n1")?.PodesiJacinuSvjetla(100);
 
-            Soba soba1 = new Soba("Dnevni boravak", "s1");
-            ISmartComponent televizija = new TV("tv1", "televizija dnevni", true);
-            ISmartComponent klima = new HVAC("kl1", "klima dnevni", true);
-            ISmartComponent svjetlo1 = new Osvjetljenje("os2n1", "svjetlo dnevni", true);
-            ISmartComponent grijanje1 = new Grijanje("gr2n1", "dnevno grijanje", true);
+            Objekat soba1 = new Objekat("Dnevni boravak", "s1");
+            ASmartComponent televizija = new TV("tv1", "televizija dnevni", true);
+            ASmartComponent klima = new HVAC("kl1", "klima dnevni", true);
+            ASmartComponent svjetlo1 = new Osvjetljenje("os2n1", "svjetlo dnevni", true);
+            ASmartComponent grijanje1 = new Grijanje("gr2n1", "dnevno grijanje", true);
 
             soba1.Add(televizija);
             soba1.Add(klima);
@@ -33,11 +33,11 @@ namespace SmartHouse
             soba1.Add(grijanje1);
 
             soba1.NadjiUredjaj<TV>("tv1")?.PromeniKanal(10);
-            soba1.NadjiUredjaj<Device>("kl1")?.TurnOff();
+            soba1.NadjiUredjaj<Device>("kl1")?.iskljuci();
 
             Kuhinja soba2 = new Kuhinja("Kuhinja", "k1");
-            ISmartComponent grijanje2 = new Grijanje("gr2n2", "kuhinsko grijanje", true);
-            ISmartComponent plinBojler = new Device("pl1", "plin kuhinja", false);
+            ASmartComponent grijanje2 = new Grijanje("gr2n2", "kuhinsko grijanje", true);
+            ASmartComponent plinBojler = new Device("pl1", "plin kuhinja", false);
 
             soba2.Add(grijanje2);
             soba2.Add(plinBojler);
@@ -45,18 +45,18 @@ namespace SmartHouse
             soba1.Add(soba2);
             soba1.NadjiSoba<Kuhinja>("k1")?.PreheatOven(250);
 
-            Soba soba3 = new SpavacaSoba("Spavaca soba", "sp1");
-            ISmartComponent klimaSpavaca = new HVAC("kl2", "klima spavaca", true);
-            ISmartComponent svjetlo3 = new Osvjetljenje("os3n1", "svjetlo spavaca", true);
-            ISmartComponent grijanje3 = new Grijanje("gr3n1", "dnevno spavaca", true);
+            Objekat soba3 = new SpavacaSoba("Spavaca soba", "sp1");
+            ASmartComponent klimaSpavaca = new HVAC("kl2", "klima spavaca", true);
+            ASmartComponent svjetlo3 = new Osvjetljenje("os3n1", "svjetlo spavaca", true);
+            ASmartComponent grijanje3 = new Grijanje("gr3n1", "dnevno spavaca", true);
 
             soba3.Add(klimaSpavaca);
             soba3.Add(svjetlo3);
             soba3.Add(grijanje3);
 
-            Soba soba4 = new KupatiloSoba("Kupatilo", "WC1");
-            ISmartComponent ventilacija = new HVAC("kl2", "ventilacija WC", true);
-            ISmartComponent svjetlo4 = new Osvjetljenje("os4n1", "svjetlo WC", true);
+            Objekat soba4 = new KupatiloSoba("Kupatilo", "WC1");
+            ASmartComponent ventilacija = new HVAC("kl2", "ventilacija WC", true);
+            ASmartComponent svjetlo4 = new Osvjetljenje("os4n1", "svjetlo WC", true);
 
             soba4.Add(ventilacija);
             soba4.Add(svjetlo4);
@@ -71,14 +71,14 @@ namespace SmartHouse
             smartKuca.prikazDetalja();
             Console.WriteLine("-----------------------------------------");
 
-            smartKuca.sveIskljuci();
+            smartKuca.iskljuci();
             Console.WriteLine("smartKuca: ");
             Console.WriteLine("-----------------------------------------");
             smartKuca.prikazDetalja();
             Console.WriteLine("-----------------------------------------");
 
 
-            Dictionary<string, SmartHouse> kuce = new Dictionary<string, SmartHouse>();
+            Dictionary<string, Objekat> kuce = new Dictionary<string, Objekat>();
             string input;
 
             while (true)
@@ -108,7 +108,7 @@ namespace SmartHouse
                             continue;
                         }
                         string nazivKuce = parts[2];
-                        kuce[id] = new SmartHouse(nazivKuce, id);
+                        kuce[id] = new Objekat(nazivKuce, id);
                         Console.WriteLine($"Kuća {nazivKuce} dodana.");
                         break;
 
@@ -122,7 +122,7 @@ namespace SmartHouse
                         string nazivSobe = parts[3];
                         if (kuce.ContainsKey(id))
                         {
-                            kuce[id].Add(new Soba(nazivSobe, idSobe));
+                            kuce[id].Add(new Objekat(nazivSobe, idSobe));
                             Console.WriteLine($"Soba {nazivSobe} dodana u kuću .");
                         }
                         else
@@ -178,9 +178,9 @@ namespace SmartHouse
                                 break;
                         }
 
-                        if (kuce[id].NadjiSoba<Soba>(idSobeUredjaj) != null)
+                        if (kuce[id].NadjiSoba<Objekat>(idSobeUredjaj) != null)
                         {
-                            kuce[id].NadjiSoba<Soba>(idSobeUredjaj).Add(uredjaj);
+                            kuce[id].NadjiSoba<Objekat>(idSobeUredjaj).Add(uredjaj);
                             Console.WriteLine($"Uređaj {nazivUredjaja} (tip: {tipUredjaja}) dodan u sobu {idSobeUredjaj}.");
                         }
                         else
@@ -203,7 +203,7 @@ namespace SmartHouse
                     case "iskljuciSve":
                         if (kuce.ContainsKey(id))
                         {
-                            kuce[id].sveIskljuci();
+                            kuce[id].iskljuci();
                             Console.WriteLine($"Svi uređaji u kući  su isključeni.");
                         }
                         else
