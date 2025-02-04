@@ -7,6 +7,19 @@ namespace SmartHouse
     {
         static void Main(string[] args)
         {
+            Objekat smartKuca = new Objekat("MojDom", "m13jas352");
+            Objekat soba1 = new Objekat("Dnevni boravak", "s1");
+            Kuhinja soba2 = new Kuhinja("Kuhinja", "k1", true);
+            
+            soba1.Add(soba2);
+            
+            soba1.NadjiKomponentu<Kuhinja>("k1")?.PreheatOven(250);
+            soba2.Add(soba1);
+            smartKuca.Add(soba1);
+            smartKuca.prikazDetalja();
+
+            //smartKuca.prikazDetalja();
+            /*
             //  client
             Objekat smartKuca = new Objekat("MojDom", "m13jas352");
             Device kucnoGrijanje = new Grijanje("gr1n1","kucno grijanje", true);
@@ -43,6 +56,7 @@ namespace SmartHouse
             soba2.Add(plinBojler);
 
             soba1.Add(soba2);
+            soba2.Add(soba1);
             soba1.NadjiKomponentu<Kuhinja>("k1")?.PreheatOven(250);
 
             Objekat soba3 = new SpavacaSoba("Spavaca soba", "sp1");
@@ -240,7 +254,7 @@ namespace SmartHouse
                 }
             }
 
-
+            */
         }
     }
 }

@@ -1,7 +1,9 @@
 ﻿using SmartHouse.Controlers;
+using System.ComponentModel;
 
 namespace SmartHouse.Composite
 {
+    //Composite
     public class Objekat : ASmartComponent
     {
 
@@ -9,6 +11,14 @@ namespace SmartHouse.Composite
 
         public virtual void Add(ASmartComponent component)
         {
+            // Provjera da li komponenta već postoji u stablu
+            Objekat? root = NadjiKucu();
+            if (root != null && root.NadjiASmartKomponentuBool(component.ID))
+            {
+                Console.WriteLine($"Greška: Komponenta sa ID: {component.ID} već postoji u stablu!");
+                return;
+            }
+            component.Parent = this;  
             _components.Add(component);
         }
         public virtual void Remove(ASmartComponent component)
@@ -16,6 +26,7 @@ namespace SmartHouse.Composite
             _components.Remove(component);
         }
 
+        
 
         public Objekat(string nazivSobe, string idSobe) : base(nazivSobe, idSobe) { }
 
@@ -49,11 +60,16 @@ namespace SmartHouse.Composite
 
         public virtual Objekat? NadjiParentKomponentu(string id)
         {
+            return NadjiKomponentu<Objekat>(id)?.Parent;
+        }
+
+        public virtual Objekat? NadjiObjekat(string id)
+        {
             foreach (var component in _components)
             {
                 if (component.isEqualId(id))
                 {
-                    return this;
+                    return (Objekat?)component;
                 }
 
                 if (component is Objekat soba)
@@ -64,6 +80,45 @@ namespace SmartHouse.Composite
             }
             return null;
         }
+
+        public virtual ASmartComponent? NadjiASmartKomponentu(string id)
+        {
+            foreach (var component in _components)
+            {
+                if (component.isEqualId(id))
+                {
+                    return component;
+                }
+
+                if (component is Objekat soba)
+                {
+                    var result = soba.NadjiASmartKomponentu(id);
+                    if (result != null) return result;
+                }
+            }
+            return null;
+        }
+
+        public virtual bool NadjiASmartKomponentuBool(string id)
+        {
+            foreach (ASmartComponent component in _components)
+            {
+                //Console.WriteLine(component.ID);
+                if (component.isEqualId(id))
+                {
+                    return true;
+                }
+
+                if (component is Objekat soba)
+                {
+                    var result = soba.NadjiASmartKomponentuBool(id);
+                    if (result != false) return true;
+                }
+            }
+            return this.isEqualId(id);
+        }
+
+
 
         public virtual bool MoveTo(string id, Objekat noviObjekat)
         {

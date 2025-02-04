@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SmartHouse.Composite;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,10 +13,22 @@ namespace SmartHouse
         public string Naziv { get; protected set; }
         public string ID { get; protected set; }
 
+        public Objekat? Parent { get; set; }
         public ASmartComponent(string naziv, string Id)
         {
             Naziv = naziv;
             ID = Id;
+        }
+        public virtual Objekat? NadjiKucu()
+        {
+            Objekat? parent = (Objekat?)this;
+
+            while (parent != null && parent.Parent != null)
+            {
+                parent = parent.Parent;
+            }
+
+            return parent;
         }
 
         public abstract void prikazDetalja();
