@@ -8,24 +8,6 @@ namespace SmartHouse
         static void Main(string[] args)
         {
             Objekat smartKuca = new Objekat("MojDom", "m13jas352");
-            Objekat soba1 = new Objekat("Dnevni boravak", "s1");
-            Kuhinja soba2 = new Kuhinja("Kuhinja", "k1", true);
-            //Kuhinja soba3 = new Objekat("objekar3", "k3", true);
-            Device kucnoGrijanje = new Grijanje("gr1n1", "kucno grijanje", true);
-            soba1.Add(soba2);
-            soba2.Add(kucnoGrijanje);
-
-            //soba1.NadjiKomponentu<Kuhinja>("k1")?.PreheatOven(250);
-            soba2.Add(soba1);
-            smartKuca.Add(soba1);
-            smartKuca.Add(smartKuca);
-           // soba1.MoveTo(soba1);
-            smartKuca.prikazDetalja();
-
-            //smartKuca.prikazDetalja();
-            /*
-            //  client
-            Objekat smartKuca = new Objekat("MojDom", "m13jas352");
             Device kucnoGrijanje = new Grijanje("gr1n1","kucno grijanje", true);
             smartKuca.Add(kucnoGrijanje);
 
@@ -61,7 +43,6 @@ namespace SmartHouse
 
             soba1.Add(soba2);
             soba2.Add(soba1);
-            soba1.NadjiKomponentu<Kuhinja>("k1")?.PreheatOven(250);
 
             Objekat soba3 = new SpavacaSoba("Spavaca soba", "sp1");
             ASmartComponent klimaSpavaca = new HVAC("kl2", "klima spavaca", true);
@@ -72,7 +53,7 @@ namespace SmartHouse
             soba3.Add(svjetlo3);
             soba3.Add(grijanje3);
 
-            Objekat soba4 = new KupatiloSoba("Kupatilo", "WC1");
+            Objekat soba4 = new Kupatilo("Kupatilo", "WC1");
             ASmartComponent ventilacija = new HVAC("kl2", "ventilacija WC", true);
             ASmartComponent svjetlo4 = new Osvjetljenje("os4n1", "svjetlo WC", true);
 
@@ -100,6 +81,7 @@ namespace SmartHouse
             }
             
             Dictionary<string, Objekat> kuce = new Dictionary<string, Objekat>();
+            kuce.Add("m13jas352", smartKuca);
             string input;
 
             while (true)
@@ -258,7 +240,7 @@ namespace SmartHouse
                 }
             }
 
-            */
+           
         }
     }
 }

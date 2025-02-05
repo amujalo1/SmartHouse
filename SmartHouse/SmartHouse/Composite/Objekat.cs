@@ -33,6 +33,7 @@ namespace SmartHouse.Composite
         public override void prikazDetalja()
         {
             Console.WriteLine($"+ ID: {ID},Prostorija: {Naziv}");
+            Console.WriteLine($"  Broj uređaja: {_components.Count}");
             foreach (var component in _components)
             {
                 component.prikazDetalja();     

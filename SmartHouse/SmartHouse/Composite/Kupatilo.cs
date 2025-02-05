@@ -6,28 +6,26 @@ using System.Threading.Tasks;
 
 namespace SmartHouse.Composite
 {
-    public class Kuhinja : Objekat
+    public class Kupatilo : Objekat
     {
-        public Kuhinja(string nazivSobe, string idSobe) : base(nazivSobe, idSobe)
-        {
-        }
+        public Kupatilo(string nazivSobe, string idSobe) : base(nazivSobe, idSobe) {}
 
         public override void prikazDetalja()
         {
-            Console.WriteLine($"<-----[Kuhinja]----->");
+            Console.WriteLine($"<-----[Kupatilo]----->");
             base.prikazDetalja(); 
         }
 
         public override void ukljuci()
         {
-            Console.WriteLine($"Uključivanje svih uređaja u kuhinji: {Naziv}");
+            Console.WriteLine($"Uključivanje svih uređaja u kupatilu: {Naziv}");
             base.ukljuci(); 
         }
 
         public override void iskljuci()
         {
-            Console.WriteLine($"Isključivanje svih uređaja u kuhinji: {Naziv}");
-            base.iskljuci(); 
+            Console.WriteLine($"Isključivanje svih uređaja u kupatilu: {Naziv}");
+            base.iskljuci();
         }
     }
 }

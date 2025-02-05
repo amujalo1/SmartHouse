@@ -10,6 +10,7 @@ namespace SmartHouse.Composite
     public class SpavacaSoba : Objekat
     {
         public bool HasAlarm { get; private set; }
+        public string AlarmTime { get; private set; } = string.Empty;
 
         public SpavacaSoba(string roomName, string id,bool hasAlarm = false) : base(roomName, id)
         {
@@ -21,6 +22,7 @@ namespace SmartHouse.Composite
             if (HasAlarm)
             {
                 Console.WriteLine($"Alarm postavljen u prostoriji '{Naziv}' za {time.ToShortTimeString()}.");
+                AlarmTime = time.ToString();
             }
             else
             {
@@ -30,12 +32,9 @@ namespace SmartHouse.Composite
 
         public override void prikazDetalja()
         {
-            Console.WriteLine($"Prostorija: {Naziv} (Spavaća soba)");
-            Console.WriteLine($"Ima alarm: {(HasAlarm ? "Da" : "Ne")}");
-            Console.WriteLine($"Broj uređaja: {_components.Count}");
+            Console.WriteLine($"<-----[Spavaća soba]----->");
+            Console.WriteLine($"* Ima alarm: {(HasAlarm ? "Da" : "Ne")}, vrijeme alarma: {AlarmTime}");
             base.prikazDetalja();
-        }
-
-        
+        }   
     }
 }
