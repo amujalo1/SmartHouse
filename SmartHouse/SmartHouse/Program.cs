@@ -10,12 +10,16 @@ namespace SmartHouse
             Objekat smartKuca = new Objekat("MojDom", "m13jas352");
             Objekat soba1 = new Objekat("Dnevni boravak", "s1");
             Kuhinja soba2 = new Kuhinja("Kuhinja", "k1", true);
-            
+            //Kuhinja soba3 = new Objekat("objekar3", "k3", true);
+            Device kucnoGrijanje = new Grijanje("gr1n1", "kucno grijanje", true);
             soba1.Add(soba2);
-            
-            soba1.NadjiKomponentu<Kuhinja>("k1")?.PreheatOven(250);
+            soba2.Add(kucnoGrijanje);
+
+            //soba1.NadjiKomponentu<Kuhinja>("k1")?.PreheatOven(250);
             soba2.Add(soba1);
             smartKuca.Add(soba1);
+            smartKuca.Add(smartKuca);
+           // soba1.MoveTo(soba1);
             smartKuca.prikazDetalja();
 
             //smartKuca.prikazDetalja();

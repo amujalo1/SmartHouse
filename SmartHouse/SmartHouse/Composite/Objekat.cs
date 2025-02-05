@@ -58,9 +58,10 @@ namespace SmartHouse.Composite
             return null;
         }
 
+        //sluzi za pronalazak roditelja komponenta sa id unutar ovog (this) objekta
         public virtual Objekat? NadjiParentKomponentu(string id)
         {
-            return NadjiKomponentu<Objekat>(id)?.Parent;
+            return NadjiASmartKomponentu(id)?.Parent;
         }
 
         public virtual Objekat? NadjiObjekat(string id)
@@ -120,23 +121,7 @@ namespace SmartHouse.Composite
 
 
 
-        public virtual bool MoveTo(string id, Objekat noviObjekat)
-        {
-            var parent = NadjiParentKomponentu(id);
-            if (parent != null)
-            {
-                var component = parent._components.FirstOrDefault(c => c.isEqualId(id));
-                if (component != null)
-                {
-                    parent.Remove(component);
-                    noviObjekat.Add(component);
-                    Console.WriteLine($"Komponenta sa ID: {id} je premještena u {noviObjekat.Naziv}");
-                    return true;
-                }
-            }
-            Console.WriteLine($"Komponenta sa ID: {id} nije pronađena ili nije premještena!");
-            return false;
-        }
+        
 
         public override void iskljuci()
         {

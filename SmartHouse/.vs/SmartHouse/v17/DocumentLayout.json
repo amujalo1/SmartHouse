@@ -84,7 +84,7 @@
               "RelativeDocumentMoniker": "SmartHouse\\Program.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Program.cs",
               "RelativeToolTip": "SmartHouse\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAkwBMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAkwAwAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-02T23:22:08.58Z",
               "EditorCaption": ""
@@ -97,7 +97,7 @@
               "RelativeDocumentMoniker": "SmartHouse\\Composite\\Objekat.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Composite\\Objekat.cs",
               "RelativeToolTip": "SmartHouse\\Composite\\Objekat.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAswBwAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADwAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-03T06:57:13.353Z",
               "EditorCaption": ""
@@ -112,8 +112,7 @@
               "RelativeToolTip": "SmartHouse\\Composite\\Kuhinja.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAgwB0AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T07:56:59.185Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-03T07:56:59.185Z"
             },
             {
               "$type": "Document",
@@ -135,7 +134,7 @@
               "RelativeDocumentMoniker": "SmartHouse\\ASmartComponent.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\ASmartComponent.cs",
               "RelativeToolTip": "SmartHouse\\ASmartComponent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAuwCgAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-02T23:21:34.555Z",
               "EditorCaption": ""
@@ -162,8 +161,7 @@
               "RelativeToolTip": "SmartHouse\\Composite\\SpavacaSoba.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T07:53:28.028Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-03T07:53:28.028Z"
             },
             {
               "$type": "Document",

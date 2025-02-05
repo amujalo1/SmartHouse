@@ -31,6 +31,23 @@ namespace SmartHouse
             return parent;
         }
 
+        public virtual ASmartComponent? MoveTo(Objekat noviObjekat)
+        {
+            if (Parent != null)
+            {
+                var component = Parent.NadjiASmartKomponentu(ID);
+                if (component != null)
+                {
+                    Parent.Remove(component);
+                    noviObjekat.Add(component);
+                    Console.WriteLine($"Komponenta sa ID: {ID} je premještena u {noviObjekat.Naziv}");
+                    return noviObjekat;
+                }
+            }
+            Console.WriteLine($"Komponenta sa ID: {ID} nije pronađena ili nije premještena!");
+            return null;
+        }
+
         public abstract void prikazDetalja();
         public abstract void iskljuci();
         public abstract void ukljuci();
