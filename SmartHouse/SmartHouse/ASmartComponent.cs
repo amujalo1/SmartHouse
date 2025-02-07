@@ -12,7 +12,6 @@ namespace SmartHouse
     {
         public string Naziv { get; protected set; }
         public string ID { get; protected set; }
-
         public Objekat? Parent { get; set; }
         public ASmartComponent(string naziv, string Id)
         {
@@ -27,7 +26,6 @@ namespace SmartHouse
             {
                 parent = parent.Parent;
             }
-
             return parent;
         }
 
@@ -53,7 +51,6 @@ namespace SmartHouse
         public abstract void ukljuci();
 
         public bool isEqualId(string id) { return ID.Equals(id); }
-
 
     }
 }

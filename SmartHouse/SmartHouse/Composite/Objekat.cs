@@ -9,7 +9,7 @@ namespace SmartHouse.Composite
 
         protected List<ASmartComponent> _components = new List<ASmartComponent>();
 
-        public virtual void Add(ASmartComponent component)
+        public void Add(ASmartComponent component)
         {
             // Provjera da li komponenta već postoji u stablu
             Objekat? root = NadjiKucu();
@@ -21,7 +21,7 @@ namespace SmartHouse.Composite
             component.Parent = this;  
             _components.Add(component);
         }
-        public virtual void Remove(ASmartComponent component)
+        public void Remove(ASmartComponent component)
         {
             _components.Remove(component);
         }
@@ -39,7 +39,7 @@ namespace SmartHouse.Composite
                 component.prikazDetalja();     
             }
         }
-        public virtual T? NadjiKomponentu<T>(string id) where T : ASmartComponent
+        public T? NadjiKomponentu<T>(string id) where T : ASmartComponent
         {
             foreach (var component in _components)
             {
@@ -60,12 +60,12 @@ namespace SmartHouse.Composite
         }
 
         //sluzi za pronalazak roditelja komponenta sa id unutar ovog (this) objekta
-        public virtual Objekat? NadjiParentKomponentu(string id)
+        public Objekat? NadjiParentKomponentu(string id)
         {
             return NadjiASmartKomponentu(id)?.Parent;
         }
 
-        public virtual Objekat? NadjiObjekat(string id)
+        public Objekat? NadjiObjekat(string id)
         {
             foreach (var component in _components)
             {
@@ -83,7 +83,7 @@ namespace SmartHouse.Composite
             return null;
         }
 
-        public virtual ASmartComponent? NadjiASmartKomponentu(string id)
+        public ASmartComponent? NadjiASmartKomponentu(string id)
         {
             foreach (var component in _components)
             {
@@ -101,7 +101,7 @@ namespace SmartHouse.Composite
             return null;
         }
 
-        public virtual bool NadjiASmartKomponentuBool(string id)
+        public bool NadjiASmartKomponentuBool(string id)
         {
             foreach (ASmartComponent component in _components)
             {
