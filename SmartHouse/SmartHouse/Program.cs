@@ -20,7 +20,7 @@ namespace SmartHouse
             smartKuca.Add(Osmica);
             smartKuca.NadjiKomponentu<Osvjetljenje>("os1n1")?.PodesiJacinuSvjetla(100);
 
-            Objekat soba1 = new Objekat("Dnevni boravak", "s1");
+            Objekat soba1 = new DnevnaSoba("Dnevni boravak", "s1");
             ASmartComponent televizija = new TV("tv1", "televizija dnevni", true);
             ASmartComponent klima = new HVAC("kl1", "klima dnevni", true);
             ASmartComponent svjetlo1 = new Osvjetljenje("os2n1", "svjetlo dnevni", true);
@@ -41,7 +41,8 @@ namespace SmartHouse
             soba2.Add(grijanje2);
             soba2.Add(plinBojler);
 
-            soba1.Add(soba2);
+            smartKuca.Add(soba2);
+            //greska
             soba2.Add(soba1);
 
             Objekat soba3 = new SpavacaSoba("Spavaca soba", "sp1");

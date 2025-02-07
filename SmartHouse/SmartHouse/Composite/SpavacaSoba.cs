@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SmartHouse.Composite
 {
-    public class SpavacaSoba : Objekat
+    public class SpavacaSoba : Soba
     {
         public bool HasAlarm { get; private set; }
         public string AlarmTime { get; private set; } = string.Empty;

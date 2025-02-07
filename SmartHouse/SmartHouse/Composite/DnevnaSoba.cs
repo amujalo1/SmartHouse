@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SmartHouse.Composite
 {
-    public class DnevnaSoba : Objekat
+    public class DnevnaSoba : Soba
     {
         public DnevnaSoba(string roomName, string id) : base(roomName, id) {}
         
