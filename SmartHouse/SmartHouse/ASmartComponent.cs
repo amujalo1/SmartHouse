@@ -19,7 +19,7 @@ namespace SmartHouse
             Naziv = naziv;
             ID = Id;
         }
-        public virtual Objekat? NadjiKucu()
+        public virtual Objekat? NadjiVrh()
         {
             Objekat? parent = (Objekat?)this;
 
@@ -54,6 +54,6 @@ namespace SmartHouse
 
         public bool isEqualId(string id) { return ID.Equals(id); }
 
-
+        public abstract int BrojKomponenti<T>();
     }
 }

@@ -9,30 +9,13 @@ namespace SmartHouse.Composite
 
         protected List<ASmartComponent> _components = new List<ASmartComponent>();
 
-        public void Add(ASmartComponent component)
+        public virtual void Add(ASmartComponent component)
         {
             // Provjera da li komponenta već postoji u stablu
-            Objekat? root = NadjiKucu();
+            Objekat? root = NadjiVrh();
             if (root != null && root.NadjiASmartKomponentuBool(component.ID))
             {
-                Console.WriteLine($"Greška: Komponenta sa ID: {component.ID} već postoji u stablu!");
-                return;
-            }
-
-            if (this is Soba && !(component is Device))
-            {
-                Console.WriteLine("Greška: Ako je pocetni objekat Soba, svi objekti moraju biti Device (Uredjaji)!");
-                return;
-            }
-            if (this is Sprat && !(component is Device || component is Soba))
-            {
-                Console.WriteLine("Greška: Na Sprat se mogu dodavati samo Device (Uredjaji) ili sobe!");
-                return;
-            }
-            if (this is Kuca && (component is Kuca))
-            {
-                Console.WriteLine("Greška: Na Kucu se mogu dodavati samo Kuce!");
-                return;
+                throw new InvalidOperationException($"Greška: Komponenta sa ID: {component.ID} već postoji u stablu!");
             }
             component.Parent = this;  
             _components.Add(component);
@@ -41,8 +24,6 @@ namespace SmartHouse.Composite
         {
             _components.Remove(component);
         }
-
-        
 
         public Objekat(string nazivSobe, string idSobe) : base(nazivSobe, idSobe) { }
 
@@ -136,6 +117,18 @@ namespace SmartHouse.Composite
             return this.isEqualId(id);
         }
 
+        public override int BrojKomponenti<T>()
+        {
+            int result = 0;
+            foreach (var component in _components)
+            {
+                if (component is T)
+                    result++;
+            }
+            return result;
+        }
+        
+
         public override void iskljuci()
         {
             foreach (var component in _components)
@@ -155,15 +148,108 @@ namespace SmartHouse.Composite
     public class Soba : Objekat
     {
         public Soba(string naziv, string id) : base(naziv, id) { }
+        public override void Add(ASmartComponent component)
+        {
+            if (!(component is Device))
+            {
+                throw new InvalidOperationException("Greška: Ako je pocetni objekat Soba, svi objekti moraju biti Device (Uredjaji)!");
+            }
+            base.Add(component);
+        }
     }
 
     public class Sprat : Objekat
     {
         public Sprat(string naziv, string id) : base(naziv, id) { }
+
+        public override void Add(ASmartComponent component)
+        {
+            if (!(component is Soba || component is Device))
+            {
+                throw new InvalidOperationException("Greška: Ako je početni objekat Sprat, svi objekti moraju biti Device (Uređaji) ili Soba!");
+            }
+            base.Add(component);
+        }
+        public override int BrojKomponenti<T>()
+        {
+            int result = 0;
+
+            if (typeof(T) == typeof(Device) || typeof(T).IsSubclassOf(typeof(Device)))
+            {
+                foreach (var component in _components)
+                {
+                    if (component is T)
+                    {
+                        result++;
+                    } 
+                    else if(component is Soba)
+                    {
+                        result += component.BrojKomponenti<T>();
+                    }
+                }
+            }
+            else 
+            {
+                return base.BrojKomponenti<T>();
+            }
+
+            return result;
+        }
+
     }
 
     public class Kuca : Objekat
     {
         public Kuca(string naziv, string id) : base(naziv, id) { }
+
+        public override void Add(ASmartComponent component)
+        {
+            if (!(component is Sprat || component is Device))
+            {
+                throw new InvalidOperationException("Greška: Ako je početni objekat Kuca, svi objekti moraju biti Device (Uređaji) ili Sprat!");
+            }
+            base.Add(component);
+        }
+
+        public override int BrojKomponenti<T>()
+        {
+            int result = 0;
+
+            if (typeof(T) == typeof(Device) || typeof(T).IsSubclassOf(typeof(Device)))
+            {
+                foreach (var component in _components)
+                {
+                    if (component is T)
+                    {
+                        result++;
+                    }
+                    else if (component is Sprat)
+                    {
+                        result += component.BrojKomponenti<T>();
+                    }
+                }
+            } 
+            else if (typeof(T) == typeof(Soba) || typeof(T).IsSubclassOf(typeof(Soba)))
+            {
+                foreach (var component in _components)
+                {
+                    if (component is T)
+                    {
+                        result++;
+                    }
+                    else if (component is Sprat)
+                    {
+                        result += component.BrojKomponenti<T>();
+                    }
+                }
+            }
+            else
+            {
+                return base.BrojKomponenti<T>();
+            }
+
+            return result;
+        }
     }
+
 }

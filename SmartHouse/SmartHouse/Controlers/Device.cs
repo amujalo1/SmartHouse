@@ -25,6 +25,14 @@
             IsOn = true;
         }
 
-        
+        public bool getStatus()
+        {
+            return IsOn;
+        }
+
+        public override int BrojKomponenti<T>()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
