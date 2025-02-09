@@ -1,5 +1,7 @@
 ﻿using SmartHouse.Composite;
+using SmartHouse.Composite.Sobe;
 using SmartHouse.Controlers;
+using SmartHouse.Controlers.Uredjaji;
 using System;
 namespace SmartHouse
 {
@@ -85,10 +87,8 @@ namespace SmartHouse
             Console.WriteLine("-----------------------------------------");
             smartKuca.prikazDetalja();
             Console.WriteLine("-----------------------------------------");
-            for(int i =0; i<10; i++)
-            {
-                Console.WriteLine("\n");
-            }
+            Console.WriteLine("\n\n\n\n\n");
+            
             
             Dictionary<string, Objekat> kuce = new Dictionary<string, Objekat>();
             kuce.Add("m13jas352", smartKuca);

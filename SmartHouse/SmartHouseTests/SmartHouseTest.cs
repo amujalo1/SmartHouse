@@ -2,6 +2,7 @@
 using SmartHouse.Composite;
 using System;
 using SmartHouse.Controlers;
+using SmartHouse.Composite.Sobe;
 
 namespace SmartHouse.Tests
 {
@@ -64,6 +65,7 @@ namespace SmartHouse.Tests
             Assert.Equal(1, kuca.BrojKomponenti<Sprat>());
             Assert.Equal(2, kuca.BrojKomponenti<Soba>());
             Assert.Equal(2, kuca.BrojKomponenti<Device>());
+            Assert.Equal(30, kuca.powerConsumption);
 
             Assert.False(soba.NadjiASmartKomponentuBool("1.1"));
             Assert.False(sprat.NadjiASmartKomponentuBool("1"));
@@ -74,8 +76,8 @@ namespace SmartHouse.Tests
         {
             var kuca = KreirajKucuSaKomponentama();
             //kuca.NadjiParentKomponentu("1.1.1.2")?.Remove(osvjetljenje);
-            kuca.NadjiParentKomponentu("1.1.1.2")?.Remove(kuca.NadjiASmartKomponentu("1.1.1.2"));
-            kuca.NadjiParentKomponentu("1.1.1.1")?.Remove(kuca.NadjiASmartKomponentu("1.1.1.1"));
+            kuca.DeepRemoveID("1.1.1.2");
+            kuca.DeepRemoveID("1.1.1.1");
 
             Assert.True(kuca.NadjiASmartKomponentuBool("1.1"));
             Assert.True(kuca.NadjiASmartKomponentuBool("1.1.1"));
@@ -227,6 +229,28 @@ namespace SmartHouse.Tests
 
             Assert.Equal(2, kuca.BrojKomponenti<Sprat>());
         }
+        [Fact]
+        public void powerConsumption_when_Add_Remove_Test()
+        {
+            Objekat kuca = KreirajKucuSaKomponentama();
+            //pretpostavka da smo imali vec 30w
+            kuca.Add(new Device("id123", "novi Uredjaj", true, 50));
+            Assert.Equal(80, kuca.powerConsumption);
+            kuca.DeepRemoveID("id123");
+            Assert.Equal(30, kuca.powerConsumption);
+        }
+        [Fact]
+        public void powerConsumption_Iskljuci_Ukljuci_Test()
+        {
+            Objekat kuca = KreirajKucuSaKomponentama();
+            //pretpostavka da smo imali vec 30w
+            Assert.Equal(30, kuca.powerConsumption);
+            kuca.iskljuci();
+            Assert.Equal(0, kuca.powerConsumption);
+            kuca.ukljuci();
+            Assert.Equal(30, kuca.powerConsumption);
+        }
+
     }
     
 }

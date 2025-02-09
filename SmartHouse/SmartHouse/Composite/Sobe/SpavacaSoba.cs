@@ -5,14 +5,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SmartHouse.Composite
+namespace SmartHouse.Composite.Sobe
 {
     public class SpavacaSoba : Soba
     {
         public bool HasAlarm { get; private set; }
         public string AlarmTime { get; private set; } = string.Empty;
 
-        public SpavacaSoba(string roomName, string id,bool hasAlarm = false) : base(roomName, id)
+        public SpavacaSoba(string roomName, string id, bool hasAlarm = false) : base(roomName, id)
         {
             HasAlarm = hasAlarm;
         }
@@ -35,6 +35,6 @@ namespace SmartHouse.Composite
             Console.WriteLine($"<-----[Spavaća soba]----->");
             Console.WriteLine($"* Ima alarm: {(HasAlarm ? "Da" : "Ne")}, vrijeme alarma: {AlarmTime}");
             base.prikazDetalja();
-        }   
+        }
     }
 }

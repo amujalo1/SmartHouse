@@ -4,17 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SmartHouse.Controlers
+namespace SmartHouse.Controlers.Uredjaji
 {
     public class HVAC : Device
     {
-        public int BrzinaVentilatora { get; private set; } 
+        public int BrzinaVentilatora { get; private set; }
         public double TrenutnaTemperatura { get; private set; }
         public double ZeljenaTemperatura { get; private set; }
 
-        public HVAC(string id, string naziv, bool isOn) : base(id, naziv, isOn)
+        public HVAC(string id, string naziv, bool isOn, int w = 500) : base(id, naziv, isOn, w)
         {
-            BrzinaVentilatora = 0; 
+            BrzinaVentilatora = 0;
             TrenutnaTemperatura = 20.0;
             ZeljenaTemperatura = 22.0;
         }

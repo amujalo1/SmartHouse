@@ -13,6 +13,8 @@ namespace SmartHouse
         public string Naziv { get; protected set; }
         public string ID { get; protected set; }
 
+        public int powerConsumption { get; protected set; }
+        
         public Objekat? Parent { get; set; }
         public ASmartComponent(string naziv, string Id)
         {
@@ -51,6 +53,7 @@ namespace SmartHouse
         public abstract void prikazDetalja();
         public abstract void iskljuci();
         public abstract void ukljuci();
+
 
         public bool isEqualId(string id) { return ID.Equals(id); }
 

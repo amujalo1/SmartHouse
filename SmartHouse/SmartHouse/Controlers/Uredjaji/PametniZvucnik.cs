@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SmartHouse.Controlers
+namespace SmartHouse.Controlers.Uredjaji
 {
     public class PametniZvucnik : Device
     {
@@ -12,7 +12,7 @@ namespace SmartHouse.Controlers
         public bool JeLiSviranjeAktivno { get; private set; }
         public string TrenutnaPjesma { get; private set; }
 
-        public PametniZvucnik(string id, string naziv, bool isOn) : base(id, naziv, isOn)
+        public PametniZvucnik(string id, string naziv, bool isOn, int w = 15) : base(id, naziv, isOn, w)
         {
             Glasnoća = 50;
             JeLiSviranjeAktivno = false;

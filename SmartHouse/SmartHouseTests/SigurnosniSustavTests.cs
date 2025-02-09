@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using SmartHouse.Controlers;
 using Xunit;
 
+
 namespace SmartHouseTests
 {
 

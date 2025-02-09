@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SmartHouse.Controlers
+namespace SmartHouse.Controlers.Uredjaji
 {
     public class Grijanje : Device
     {
         public double TrenutnaTemperatura { get; private set; }
         public double ZeljenaTemperatura { get; private set; }
 
-        public Grijanje(string id, string naziv, bool isOn) : base(id, naziv, isOn)
+        public Grijanje(string id, string naziv, bool isOn, int w = 1000) : base(id, naziv, isOn, w)
         {
             TrenutnaTemperatura = 20.0;
             ZeljenaTemperatura = 22.0;

@@ -17,19 +17,54 @@ namespace SmartHouse.Composite
             {
                 throw new InvalidOperationException($"Greška: Komponenta sa ID: {component.ID} već postoji u stablu!");
             }
+            powerConsumption += component.powerConsumption;
             component.Parent = this;  
             _components.Add(component);
+            powerConsumptionUpdate(component.powerConsumption);
         }
         public void Remove(ASmartComponent component)
         {
+            if (!_components.Contains(component))
+            {
+                throw new InvalidOperationException($"Greška: Komponenta sa ID: {component.ID} nije pronađena u stablu!");
+            }
+            component.Parent = null;
             _components.Remove(component);
+            if (_components.Contains(component))
+            {
+                throw new InvalidOperationException($"Greška: Komponenta sa ID: {component.ID} nije pravilno uklonjena!");
+            }
+            powerConsumption -= component.powerConsumption;
+            powerConsumptionUpdate((-1)*component.powerConsumption);
+        }
+        public void DeepRemoveID(string id)
+        {
+            NadjiParentKomponentu(id)?.Remove(NadjiASmartKomponentu(id));
+        }
+        public void DeepRemove(ASmartComponent component)
+        {
+            NadjiParentKomponentu(component.ID)?.Remove(NadjiASmartKomponentu(component.ID));
+        }
+        public Objekat(string nazivSobe, string idSobe) : base(nazivSobe, idSobe) 
+        {
+            powerConsumption = 0;
         }
 
-        public Objekat(string nazivSobe, string idSobe) : base(nazivSobe, idSobe) { }
+        private void powerConsumptionUpdate(int w)
+        {
+            if (Parent != null)
+            {
+                Parent.powerConsumption += w;  
+                Parent.powerConsumptionUpdate(w);  
+            }
+        }
+
+       
 
         public override void prikazDetalja()
         {
             Console.WriteLine($"+ ID: {ID}, Prostorija: {Naziv}");
+            Console.WriteLine($"Potrošnja energije za {Naziv}: {powerConsumption} W");
 
             int brojSpratova = this.BrojKomponenti<Sprat>();
             int brojSoba = this.BrojKomponenti<Soba>();
@@ -145,8 +180,10 @@ namespace SmartHouse.Composite
         {
             foreach (var component in _components)
             {
+                powerConsumption -= component.powerConsumption;
                 component.iskljuci();
             }
+            
         }
 
         public override void ukljuci()
@@ -154,7 +191,9 @@ namespace SmartHouse.Composite
             foreach (var component in _components)
             {
                 component.ukljuci();
+                powerConsumption += component.powerConsumption;
             }
+            
         }
     }
     // Ovaj dolje dio nam i ne treba stablo se moze formirati i sa klasom Objekat

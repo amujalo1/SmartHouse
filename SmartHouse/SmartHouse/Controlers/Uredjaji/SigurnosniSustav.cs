@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SmartHouse.Controlers
+namespace SmartHouse.Controlers.Uredjaji
 {
     public class SigurnosniSustav : Device
     {
@@ -12,7 +12,7 @@ namespace SmartHouse.Controlers
         public bool KameraAktivna { get; private set; }
         public bool BravaZakljucana { get; private set; }
 
-        public SigurnosniSustav(string id, string naziv, bool isOn) : base(id, naziv, isOn)
+        public SigurnosniSustav(string id, string naziv, bool isOn, int w = 100) : base(id, naziv, isOn, w)
         {
             AlarmAktiviran = false;
             KameraAktivna = false;
