@@ -3,7 +3,7 @@
 ## Overview
 This repository contains the source code and documentation for the Smart House project, developed as part of the Skyline Talent Program. The project focuses on creating a modular and scalable system for managing smart homes, including rooms, devices, and their hierarchical relationships. The system is designed to simulate a smart home environment where users can interact with and manage various components programmatically.
 
-The project has gone through multiple iterations, with the latest version (V3) being the most stable and feature-rich. Below is a detailed explanation of the repository structure, branches, and key features.
+The project has gone through multiple iterations, with the latest version (V4) being the most stable and feature-rich. Below is a detailed explanation of the repository structure, branches, and key features.
 
 ## Repository Structure
 
@@ -24,16 +24,32 @@ The project has gone through multiple iterations, with the latest version (V3) b
 - **SmartHouse/V3**  
   This branch is identical to the main branch and contains the latest version of the project (V3). It reflects the final state of the project after all refactoring and optimizations.
 
+- **SmartHouse/V4**
+  This branch contains the latest version of the project (V4). It introduces power consumption tracking, deep component removal, and improved hierarchical updates.
+
 - **feat/add-MoveTo**  
   This branch was created to implement the MoveTo functionality, which allows moving devices (nodes) between rooms or objects in the hierarchy. It was later merged into the develop and main branches.
 
 - **feat/unit-test**  
   This branch was used to add 40 xUnit tests to the project. These tests cover various functionalities, including hierarchy management, device movement, and cycle prevention. The tests ensure the stability and reliability of the system.
+- **feat/power-monitoring**
+  This branch was created to introduce power consumption tracking and deep component removal.
+  - Added powerConsumption tracking to components.
+  - Implemented DeepRemove for removing components from the top of the hierarchy.
+  - Ensured proper power consumption updates when adding or removing components.
 
 - **bugfix/hierarchical-cycle-prevention**  
   This branch was created to fix a critical issue where nodes could form infinite loops in the hierarchy. The issue was resolved by implementing a mechanism to detect and prevent cycles during node addition. More details about this issue can be found in the Issues section.
 
 ## Key Features
+### Version V4 Highlights
+
+- **Power Consumption Tracking:** Implemented `powerConsumption` tracking across components, ensuring accurate energy usage calculations.  
+- **Deep Component Removal (`DeepRemove` and `DeepRemoveID`):** Added a method to remove components from the top of the hierarchy while properly updating dependencies.  
+- **Hierarchy Update Fix:** Ensured that power consumption updates correctly when adding or removing components.  
+- **Additional Unit Tests:** Added 2 new xUnit tests to verify power consumption calculations and component removal logic.  
+- **Refined Class Structure:** Improved hierarchy management and data integrity across the system.  
+- **Optimized UI:** Further enhanced console-based interaction for better readability and usability.  
 
 ### Version V3 Highlights
 
