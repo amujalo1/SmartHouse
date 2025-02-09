@@ -3,32 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|c:\\users\\user\\documents\\github\\smarthome\\smarthouse\\smarthouse\\composite\\objekat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\composite\\objekat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{883F5290-B768-44BB-BF8D-5C0DFC16D6F3}|SmartHouseTests\\SmartHouseTests.csproj|c:\\users\\user\\documents\\github\\smarthome\\smarthouse\\smarthousetests\\spavacasobatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{883F5290-B768-44BB-BF8D-5C0DFC16D6F3}|SmartHouseTests\\SmartHouseTests.csproj|solutionrelative:smarthousetests\\spavacasobatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|c:\\users\\user\\documents\\github\\smarthome\\smarthouse\\smarthouse\\composite\\kuhinja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\composite\\kuhinja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|c:\\users\\user\\documents\\github\\smarthome\\smarthouse\\smarthouse\\composite\\garaza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\composite\\garaza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|c:\\users\\user\\documents\\github\\smarthome\\smarthouse\\smarthouse\\composite\\dnevnasoba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\composite\\dnevnasoba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|c:\\users\\user\\documents\\github\\smarthome\\smarthouse\\smarthouse\\composite\\spavacasoba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\composite\\spavacasoba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|c:\\users\\user\\documents\\github\\smarthome\\smarthouse\\smarthouse\\controlers\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\controlers\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{883F5290-B768-44BB-BF8D-5C0DFC16D6F3}|SmartHouseTests\\SmartHouseTests.csproj|c:\\users\\user\\documents\\github\\smarthome\\smarthouse\\smarthousetests\\smarthousetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{883F5290-B768-44BB-BF8D-5C0DFC16D6F3}|SmartHouseTests\\SmartHouseTests.csproj|solutionrelative:smarthousetests\\smarthousetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{883F5290-B768-44BB-BF8D-5C0DFC16D6F3}|SmartHouseTests\\SmartHouseTests.csproj|c:\\users\\user\\documents\\github\\smarthome\\smarthouse\\smarthousetests\\spavacasobatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{883F5290-B768-44BB-BF8D-5C0DFC16D6F3}|SmartHouseTests\\SmartHouseTests.csproj|solutionrelative:smarthousetests\\spavacasobatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|c:\\users\\user\\documents\\github\\smarthome\\smarthouse\\smarthouse\\composite\\objekat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\composite\\objekat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|c:\\users\\user\\documents\\github\\smarthome\\smarthouse\\smarthouse\\asmartcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -39,8 +27,8 @@
       "RelativeMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|c:\\users\\user\\documents\\github\\smarthome\\smarthouse\\smarthouse\\classdiagramv3.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
-      "RelativeMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\classdiagramv3.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
+      "AbsoluteMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|c:\\users\\user\\documents\\github\\smarthome\\smarthouse\\smarthouse\\controlers\\uredjaji\\osvjetljenje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\controlers\\uredjaji\\osvjetljenje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{883F5290-B768-44BB-BF8D-5C0DFC16D6F3}|SmartHouseTests\\SmartHouseTests.csproj|c:\\users\\user\\documents\\github\\smarthome\\smarthouse\\smarthousetests\\garazatests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,48 +39,60 @@
       "RelativeMoniker": "D:0:0:{883F5290-B768-44BB-BF8D-5C0DFC16D6F3}|SmartHouseTests\\SmartHouseTests.csproj|solutionrelative:smarthousetests\\osvjetljenjetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|c:\\users\\user\\documents\\github\\smarthome\\smarthouse\\smarthouse\\controlers\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\controlers\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|c:\\users\\user\\documents\\github\\smarthome\\smarthouse\\smarthouse\\controlers\\grijanje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\controlers\\grijanje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{883F5290-B768-44BB-BF8D-5C0DFC16D6F3}|SmartHouseTests\\SmartHouseTests.csproj|c:\\users\\user\\documents\\github\\smarthome\\smarthouse\\smarthousetests\\pametnizvucniktests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{883F5290-B768-44BB-BF8D-5C0DFC16D6F3}|SmartHouseTests\\SmartHouseTests.csproj|solutionrelative:smarthousetests\\pametnizvucniktests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{883F5290-B768-44BB-BF8D-5C0DFC16D6F3}|SmartHouseTests\\SmartHouseTests.csproj|c:\\users\\user\\documents\\github\\smarthome\\smarthouse\\smarthousetests\\sigurnosnisustavtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{883F5290-B768-44BB-BF8D-5C0DFC16D6F3}|SmartHouseTests\\SmartHouseTests.csproj|solutionrelative:smarthousetests\\sigurnosnisustavtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|c:\\users\\user\\documents\\github\\smarthome\\smarthouse\\smarthouse\\composite\\kupatilo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\composite\\kupatilo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|c:\\users\\user\\documents\\github\\smarthome\\smarthouse\\smarthouse\\controlers\\sigurnosnisustav.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\controlers\\sigurnosnisustav.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|c:\\users\\user\\documents\\github\\smarthome\\smarthouse\\smarthouse\\controlers\\hvac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\controlers\\hvac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{883F5290-B768-44BB-BF8D-5C0DFC16D6F3}|SmartHouseTests\\SmartHouseTests.csproj|c:\\users\\user\\documents\\github\\smarthome\\smarthouse\\smarthousetests\\pametnizvucniktests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{883F5290-B768-44BB-BF8D-5C0DFC16D6F3}|SmartHouseTests\\SmartHouseTests.csproj|solutionrelative:smarthousetests\\pametnizvucniktests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|c:\\users\\user\\documents\\github\\smarthome\\smarthouse\\smarthouse\\controlers\\pametnizvucnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\controlers\\pametnizvucnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|c:\\users\\user\\documents\\github\\smarthome\\smarthouse\\smarthouse\\controlers\\osvjetljenje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\controlers\\osvjetljenje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{883F5290-B768-44BB-BF8D-5C0DFC16D6F3}|SmartHouseTests\\SmartHouseTests.csproj|c:\\users\\user\\documents\\github\\smarthome\\smarthouse\\smarthousetests\\usings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{883F5290-B768-44BB-BF8D-5C0DFC16D6F3}|SmartHouseTests\\SmartHouseTests.csproj|solutionrelative:smarthousetests\\usings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|c:\\users\\user\\documents\\github\\smarthome\\smarthouse\\smarthouse\\controlers\\tv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\controlers\\tv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|c:\\users\\user\\documents\\github\\smarthome\\smarthouse\\smarthouse\\composite\\sobe\\kuhinja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\composite\\sobe\\kuhinja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|c:\\users\\user\\documents\\github\\smarthome\\smarthouse\\smarthouse\\controlers\\uredjaji\\grijanje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\controlers\\uredjaji\\grijanje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|c:\\users\\user\\documents\\github\\smarthome\\smarthouse\\smarthouse\\controlers\\uredjaji\\tv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\controlers\\uredjaji\\tv.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|c:\\users\\user\\documents\\github\\smarthome\\smarthouse\\smarthouse\\controlers\\uredjaji\\sigurnosnisustav.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\controlers\\uredjaji\\sigurnosnisustav.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|c:\\users\\user\\documents\\github\\smarthome\\smarthouse\\smarthouse\\controlers\\uredjaji\\pametnizvucnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\controlers\\uredjaji\\pametnizvucnik.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|c:\\users\\user\\documents\\github\\smarthome\\smarthouse\\smarthouse\\controlers\\uredjaji\\hvac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\controlers\\uredjaji\\hvac.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|c:\\users\\user\\documents\\github\\smarthome\\smarthouse\\smarthouse\\composite\\sobe\\spavacasoba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\composite\\sobe\\spavacasoba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|c:\\users\\user\\documents\\github\\smarthome\\smarthouse\\smarthouse\\composite\\sobe\\kupatilo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\composite\\sobe\\kupatilo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|c:\\users\\user\\documents\\github\\smarthome\\smarthouse\\smarthouse\\composite\\sobe\\garaza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\composite\\sobe\\garaza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|c:\\users\\user\\documents\\github\\smarthome\\smarthouse\\smarthouse\\composite\\sobe\\dnevnasoba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\composite\\sobe\\dnevnasoba.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|c:\\users\\user\\documents\\github\\smarthome\\smarthouse\\smarthouse\\classdiagramv3.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "RelativeMoniker": "D:0:0:{810249D5-6301-4D17-853A-550D69A08151}|SmartHouse\\SmartHouse.csproj|solutionrelative:smarthouse\\classdiagramv3.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -110,13 +110,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
+              "Title": "SmartHouseTest.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouseTests\\SmartHouseTest.cs",
+              "RelativeDocumentMoniker": "SmartHouseTests\\SmartHouseTest.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouseTests\\SmartHouseTest.cs",
+              "RelativeToolTip": "SmartHouseTests\\SmartHouseTest.cs",
+              "ViewState": "AgIAAPAAAAAAAAAAAAAUwPsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T22:33:24.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Objekat.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Composite\\Objekat.cs",
+              "RelativeDocumentMoniker": "SmartHouse\\Composite\\Objekat.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Composite\\Objekat.cs",
+              "RelativeToolTip": "SmartHouse\\Composite\\Objekat.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwC0AAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T06:57:13.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "SpavacaSobaTests.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouseTests\\SpavacaSobaTests.cs",
               "RelativeDocumentMoniker": "SmartHouseTests\\SpavacaSobaTests.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouseTests\\SpavacaSobaTests.cs",
               "RelativeToolTip": "SmartHouseTests\\SpavacaSobaTests.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAuwBYAAAA+AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-08T18:03:43.092Z",
               "EditorCaption": ""
@@ -124,165 +150,142 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "SmartHouseTest.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouseTests\\SmartHouseTest.cs",
-              "RelativeDocumentMoniker": "SmartHouseTests\\SmartHouseTest.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouseTests\\SmartHouseTest.cs",
-              "RelativeToolTip": "SmartHouseTests\\SmartHouseTest.cs",
-              "ViewState": "AgIAAMUAAAAAAAAAAAAmwJsAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T22:33:24.869Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Objekat.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Composite\\Objekat.cs",
-              "RelativeDocumentMoniker": "SmartHouse\\Composite\\Objekat.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Composite\\Objekat.cs",
-              "RelativeToolTip": "SmartHouse\\Composite\\Objekat.cs",
-              "ViewState": "AgIAANQAAAAAAAAAAAAiwDAAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T06:57:13.353Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "SpavacaSoba.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Composite\\SpavacaSoba.cs",
-              "RelativeDocumentMoniker": "SmartHouse\\Composite\\SpavacaSoba.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Composite\\SpavacaSoba.cs",
-              "RelativeToolTip": "SmartHouse\\Composite\\SpavacaSoba.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAUwAkAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T07:53:28.028Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Kuhinja.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Composite\\Kuhinja.cs",
-              "RelativeDocumentMoniker": "SmartHouse\\Composite\\Kuhinja.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Composite\\Kuhinja.cs",
-              "RelativeToolTip": "SmartHouse\\Composite\\Kuhinja.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBYAAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T07:56:59.185Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Garaza.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Composite\\Garaza.cs",
-              "RelativeDocumentMoniker": "SmartHouse\\Composite\\Garaza.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Composite\\Garaza.cs",
-              "RelativeToolTip": "SmartHouse\\Composite\\Garaza.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAgwAoAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T07:56:51.003Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DnevnaSoba.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Composite\\DnevnaSoba.cs",
-              "RelativeDocumentMoniker": "SmartHouse\\Composite\\DnevnaSoba.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Composite\\DnevnaSoba.cs",
-              "RelativeToolTip": "SmartHouse\\Composite\\DnevnaSoba.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAA1wA8AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T07:56:26.793Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ASmartComponent.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\ASmartComponent.cs",
-              "RelativeDocumentMoniker": "SmartHouse\\ASmartComponent.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\ASmartComponent.cs",
-              "RelativeToolTip": "SmartHouse\\ASmartComponent.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAcwAoAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T23:30:56.134Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Program.cs",
               "RelativeDocumentMoniker": "SmartHouse\\Program.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Program.cs",
               "RelativeToolTip": "SmartHouse\\Program.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAqwN0AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAqwFkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-02T23:22:08.58Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ClassDiagramV3.cd",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\ClassDiagramV3.cd",
-              "RelativeDocumentMoniker": "SmartHouse\\ClassDiagramV3.cd",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\ClassDiagramV3.cd",
-              "RelativeToolTip": "SmartHouse\\ClassDiagramV3.cd",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
-              "WhenOpened": "2025-02-08T23:30:28.452Z",
+              "DocumentIndex": 4,
+              "Title": "ASmartComponent.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\ASmartComponent.cs",
+              "RelativeDocumentMoniker": "SmartHouse\\ASmartComponent.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\ASmartComponent.cs",
+              "RelativeToolTip": "SmartHouse\\ASmartComponent.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwA8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T23:30:56.134Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "GarazaTests.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouseTests\\GarazaTests.cs",
-              "RelativeDocumentMoniker": "SmartHouseTests\\GarazaTests.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouseTests\\GarazaTests.cs",
-              "RelativeToolTip": "SmartHouseTests\\GarazaTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T18:04:45.132Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "OsvjetljenjeTests.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouseTests\\OsvjetljenjeTests.cs",
-              "RelativeDocumentMoniker": "SmartHouseTests\\OsvjetljenjeTests.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouseTests\\OsvjetljenjeTests.cs",
-              "RelativeToolTip": "SmartHouseTests\\OsvjetljenjeTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T18:05:51.489Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 1,
               "Title": "Device.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Controlers\\Device.cs",
               "RelativeDocumentMoniker": "SmartHouse\\Controlers\\Device.cs",
               "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Controlers\\Device.cs",
               "RelativeToolTip": "SmartHouse\\Controlers\\Device.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAewCUAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-03T07:59:49.673Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Osvjetljenje.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Controlers\\Uredjaji\\Osvjetljenje.cs",
+              "RelativeDocumentMoniker": "SmartHouse\\Controlers\\Uredjaji\\Osvjetljenje.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Controlers\\Uredjaji\\Osvjetljenje.cs",
+              "RelativeToolTip": "SmartHouse\\Controlers\\Uredjaji\\Osvjetljenje.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAQwA8AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T08:05:32.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GarazaTests.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouseTests\\GarazaTests.cs",
+              "RelativeDocumentMoniker": "SmartHouseTests\\GarazaTests.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouseTests\\GarazaTests.cs",
+              "RelativeToolTip": "SmartHouseTests\\GarazaTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T18:04:45.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OsvjetljenjeTests.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouseTests\\OsvjetljenjeTests.cs",
+              "RelativeDocumentMoniker": "SmartHouseTests\\OsvjetljenjeTests.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouseTests\\OsvjetljenjeTests.cs",
+              "RelativeToolTip": "SmartHouseTests\\OsvjetljenjeTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T18:05:51.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PametniZvucnikTests.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouseTests\\PametniZvucnikTests.cs",
+              "RelativeDocumentMoniker": "SmartHouseTests\\PametniZvucnikTests.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouseTests\\PametniZvucnikTests.cs",
+              "RelativeToolTip": "SmartHouseTests\\PametniZvucnikTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T18:05:21.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SigurnosniSustavTests.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouseTests\\SigurnosniSustavTests.cs",
+              "RelativeDocumentMoniker": "SmartHouseTests\\SigurnosniSustavTests.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouseTests\\SigurnosniSustavTests.cs",
+              "RelativeToolTip": "SmartHouseTests\\SigurnosniSustavTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-08T20:40:23.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Usings.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouseTests\\Usings.cs",
+              "RelativeDocumentMoniker": "SmartHouseTests\\Usings.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouseTests\\Usings.cs",
+              "RelativeToolTip": "SmartHouseTests\\Usings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-07T22:33:29.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Kuhinja.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Composite\\Sobe\\Kuhinja.cs",
+              "RelativeDocumentMoniker": "SmartHouse\\Composite\\Sobe\\Kuhinja.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Composite\\Sobe\\Kuhinja.cs",
+              "RelativeToolTip": "SmartHouse\\Composite\\Sobe\\Kuhinja.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T07:56:59.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 13,
               "Title": "Grijanje.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Controlers\\Grijanje.cs",
-              "RelativeDocumentMoniker": "SmartHouse\\Controlers\\Grijanje.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Controlers\\Grijanje.cs",
-              "RelativeToolTip": "SmartHouse\\Controlers\\Grijanje.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Controlers\\Uredjaji\\Grijanje.cs",
+              "RelativeDocumentMoniker": "SmartHouse\\Controlers\\Uredjaji\\Grijanje.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Controlers\\Uredjaji\\Grijanje.cs",
+              "RelativeToolTip": "SmartHouse\\Controlers\\Uredjaji\\Grijanje.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-03T08:05:16.179Z",
               "EditorCaption": ""
@@ -290,116 +293,117 @@
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "SigurnosniSustavTests.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouseTests\\SigurnosniSustavTests.cs",
-              "RelativeDocumentMoniker": "SmartHouseTests\\SigurnosniSustavTests.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouseTests\\SigurnosniSustavTests.cs",
-              "RelativeToolTip": "SmartHouseTests\\SigurnosniSustavTests.cs",
-              "ViewState": "AgIAAFIAAAAAAAAAAAAwwGEAAAAxAAAAAAAAAA==",
+              "Title": "TV.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Controlers\\Uredjaji\\TV.cs",
+              "RelativeDocumentMoniker": "SmartHouse\\Controlers\\Uredjaji\\TV.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Controlers\\Uredjaji\\TV.cs",
+              "RelativeToolTip": "SmartHouse\\Controlers\\Uredjaji\\TV.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T20:40:23.427Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Kupatilo.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Composite\\Kupatilo.cs",
-              "RelativeDocumentMoniker": "SmartHouse\\Composite\\Kupatilo.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Composite\\Kupatilo.cs",
-              "RelativeToolTip": "SmartHouse\\Composite\\Kupatilo.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T07:53:28.913Z",
+              "WhenOpened": "2025-02-03T08:05:51.444Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "SigurnosniSustav.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Controlers\\SigurnosniSustav.cs",
-              "RelativeDocumentMoniker": "SmartHouse\\Controlers\\SigurnosniSustav.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Controlers\\SigurnosniSustav.cs",
-              "RelativeToolTip": "SmartHouse\\Controlers\\SigurnosniSustav.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Controlers\\Uredjaji\\SigurnosniSustav.cs",
+              "RelativeDocumentMoniker": "SmartHouse\\Controlers\\Uredjaji\\SigurnosniSustav.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Controlers\\Uredjaji\\SigurnosniSustav.cs",
+              "RelativeToolTip": "SmartHouse\\Controlers\\Uredjaji\\SigurnosniSustav.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-03T08:05:37.546Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "HVAC.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Controlers\\HVAC.cs",
-              "RelativeDocumentMoniker": "SmartHouse\\Controlers\\HVAC.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Controlers\\HVAC.cs",
-              "RelativeToolTip": "SmartHouse\\Controlers\\HVAC.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAmwDwAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T08:05:22.037Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "PametniZvucnikTests.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouseTests\\PametniZvucnikTests.cs",
-              "RelativeDocumentMoniker": "SmartHouseTests\\PametniZvucnikTests.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouseTests\\PametniZvucnikTests.cs",
-              "RelativeToolTip": "SmartHouseTests\\PametniZvucnikTests.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAwwCUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-08T18:05:21.286Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 16,
               "Title": "PametniZvucnik.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Controlers\\PametniZvucnik.cs",
-              "RelativeDocumentMoniker": "SmartHouse\\Controlers\\PametniZvucnik.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Controlers\\PametniZvucnik.cs",
-              "RelativeToolTip": "SmartHouse\\Controlers\\PametniZvucnik.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Controlers\\Uredjaji\\PametniZvucnik.cs",
+              "RelativeDocumentMoniker": "SmartHouse\\Controlers\\Uredjaji\\PametniZvucnik.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Controlers\\Uredjaji\\PametniZvucnik.cs",
+              "RelativeToolTip": "SmartHouse\\Controlers\\Uredjaji\\PametniZvucnik.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-03T08:05:38.195Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Osvjetljenje.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Controlers\\Osvjetljenje.cs",
-              "RelativeDocumentMoniker": "SmartHouse\\Controlers\\Osvjetljenje.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Controlers\\Osvjetljenje.cs",
-              "RelativeToolTip": "SmartHouse\\Controlers\\Osvjetljenje.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAC8AAAAFAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "HVAC.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Controlers\\Uredjaji\\HVAC.cs",
+              "RelativeDocumentMoniker": "SmartHouse\\Controlers\\Uredjaji\\HVAC.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Controlers\\Uredjaji\\HVAC.cs",
+              "RelativeToolTip": "SmartHouse\\Controlers\\Uredjaji\\HVAC.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T08:05:32.355Z",
+              "WhenOpened": "2025-02-03T08:05:22.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Kupatilo.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Composite\\Sobe\\Kupatilo.cs",
+              "RelativeDocumentMoniker": "SmartHouse\\Composite\\Sobe\\Kupatilo.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Composite\\Sobe\\Kupatilo.cs",
+              "RelativeToolTip": "SmartHouse\\Composite\\Sobe\\Kupatilo.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T07:53:28.913Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "Usings.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouseTests\\Usings.cs",
-              "RelativeDocumentMoniker": "SmartHouseTests\\Usings.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouseTests\\Usings.cs",
-              "RelativeToolTip": "SmartHouseTests\\Usings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "DnevnaSoba.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Composite\\Sobe\\DnevnaSoba.cs",
+              "RelativeDocumentMoniker": "SmartHouse\\Composite\\Sobe\\DnevnaSoba.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Composite\\Sobe\\DnevnaSoba.cs",
+              "RelativeToolTip": "SmartHouse\\Composite\\Sobe\\DnevnaSoba.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAA1wA8AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-07T22:33:29.091Z"
+              "WhenOpened": "2025-02-03T07:56:26.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Garaza.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Composite\\Sobe\\Garaza.cs",
+              "RelativeDocumentMoniker": "SmartHouse\\Composite\\Sobe\\Garaza.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Composite\\Sobe\\Garaza.cs",
+              "RelativeToolTip": "SmartHouse\\Composite\\Sobe\\Garaza.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwAoAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T07:56:51.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SpavacaSoba.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Composite\\Sobe\\SpavacaSoba.cs",
+              "RelativeDocumentMoniker": "SmartHouse\\Composite\\Sobe\\SpavacaSoba.cs",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Composite\\Sobe\\SpavacaSoba.cs",
+              "RelativeToolTip": "SmartHouse\\Composite\\Sobe\\SpavacaSoba.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAUwAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-03T07:53:28.028Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 22,
-              "Title": "TV.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Controlers\\TV.cs",
-              "RelativeDocumentMoniker": "SmartHouse\\Controlers\\TV.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\Controlers\\TV.cs",
-              "RelativeToolTip": "SmartHouse\\Controlers\\TV.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAqwBEAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-03T08:05:51.444Z",
-              "EditorCaption": ""
+              "Title": "ClassDiagramV3.cd",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\ClassDiagramV3.cd",
+              "RelativeDocumentMoniker": "SmartHouse\\ClassDiagramV3.cd",
+              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\SmartHome\\SmartHouse\\SmartHouse\\ClassDiagramV3.cd",
+              "RelativeToolTip": "SmartHouse\\ClassDiagramV3.cd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2025-02-08T23:30:28.452Z"
             }
           ]
         }

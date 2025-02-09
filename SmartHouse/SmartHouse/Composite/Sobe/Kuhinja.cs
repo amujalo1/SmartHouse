@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SmartHouse.Composite
+namespace SmartHouse.Composite.Sobe
 {
     public class Kuhinja : Soba
     {
@@ -15,19 +15,19 @@ namespace SmartHouse.Composite
         public override void prikazDetalja()
         {
             Console.WriteLine($"<-----[Kuhinja]----->");
-            base.prikazDetalja(); 
+            base.prikazDetalja();
         }
 
         public override void ukljuci()
         {
             Console.WriteLine($"Uključivanje svih uređaja u kuhinji: {Naziv}");
-            base.ukljuci(); 
+            base.ukljuci();
         }
 
         public override void iskljuci()
         {
             Console.WriteLine($"Isključivanje svih uređaja u kuhinji: {Naziv}");
-            base.iskljuci(); 
+            base.iskljuci();
         }
     }
 }

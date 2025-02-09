@@ -4,22 +4,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SmartHouse.Composite
+namespace SmartHouse.Composite.Sobe
 {
     public class Kupatilo : Soba
     {
-        public Kupatilo(string nazivSobe, string idSobe) : base(nazivSobe, idSobe) {}
+        public Kupatilo(string nazivSobe, string idSobe) : base(nazivSobe, idSobe) { }
 
         public override void prikazDetalja()
         {
             Console.WriteLine($"<-----[Kupatilo]----->");
-            base.prikazDetalja(); 
+            base.prikazDetalja();
         }
 
         public override void ukljuci()
         {
             Console.WriteLine($"Uključivanje svih uređaja u kupatilu: {Naziv}");
-            base.ukljuci(); 
+            base.ukljuci();
         }
 
         public override void iskljuci()

@@ -5,14 +5,14 @@ using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SmartHouse.Controlers
+namespace SmartHouse.Controlers.Uredjaji
 {
     public class Osvjetljenje : Device
     {
-        public int JacinaSvjetla { get; private set; } 
+        public int JacinaSvjetla { get; private set; }
         public string bojaSvjetla { get; private set; }
-        public Osvjetljenje(string id, string naziv, bool isOn, int jacina=0, string boja = "#FFFFFF") : base(id,naziv,isOn)
-        {   
+        public Osvjetljenje(string id, string naziv, bool isOn, int w = 10, int jacina = 0, string boja = "#FFFFFF") : base(id, naziv, isOn, w)
+        {
             JacinaSvjetla = jacina;
             bojaSvjetla = boja;
         }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SmartHouse.Controlers
+namespace SmartHouse.Controlers.Uredjaji
 {
     public class TV : Device
     {
@@ -12,7 +12,7 @@ namespace SmartHouse.Controlers
         public int JacinaZvuka { get; private set; }
         public bool IsMuted { get; private set; }
 
-        public TV(string id, string naziv, bool isOn) : base(id, naziv, isOn)
+        public TV(string id, string naziv, bool isOn, int w = 75) : base(id, naziv, isOn, w)
         {
             TrenutniKanal = 1;
             JacinaZvuka = 10;

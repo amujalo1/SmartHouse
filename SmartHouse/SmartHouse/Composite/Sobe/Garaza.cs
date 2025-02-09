@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SmartHouse.Composite
+namespace SmartHouse.Composite.Sobe
 {
     public class Garaza : Soba
     {
@@ -26,13 +26,13 @@ namespace SmartHouse.Composite
         public override void ukljuci()
         {
             Console.WriteLine($"Uključivanje svih uređaja u garaži: {Naziv}");
-            base.ukljuci(); 
+            base.ukljuci();
         }
 
         public override void iskljuci()
         {
             Console.WriteLine($"Isključivanje svih uređaja u garaži: {Naziv}");
-            base.iskljuci(); 
+            base.iskljuci();
         }
 
         public void otvoriVrata()
