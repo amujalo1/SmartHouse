@@ -10,7 +10,7 @@ The project has gone through multiple iterations, with the latest version (V4) b
 ### Branches
 
 - **main**  
-  The main branch contains the latest stable version of the project (V3). This branch is production-ready and includes all the latest features, optimizations, and bug fixes.
+  The main branch contains the latest stable version of the project (V4). This branch is production-ready and includes all the latest features, optimizations, and bug fixes.
 
 - **develop**  
   The develop branch is used for ongoing development. It mirrors the main branch but is used for testing new features and improvements before they are merged into main.
@@ -100,6 +100,6 @@ The project has gone through multiple iterations, with the latest version (V4) b
 5. Run the project using your preferred IDE or build tool.
 
 ## Conclusion
-The Smart House project demonstrates the evolution of a modular and scalable system for managing smart home environments. Through iterative development, refactoring, and testing, the project has achieved a stable and efficient architecture. The latest version (V3) is ready for production use, with additional features and improvements planned for future updates.
+The Smart House project demonstrates the evolution of a modular and scalable system for managing smart home environments. Through iterative development, refactoring, and testing, the project has achieved a stable and efficient architecture. The latest version (V4) is ready for production use, with additional features and improvements planned for future updates.
 
 For more details, refer to the documentation in the `docs` branch or explore the commit history. Contributions and feedback are welcome! 🚀
