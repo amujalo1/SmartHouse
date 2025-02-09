@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SmartHouse.ASmartComponent" Collapsed="true">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAFAAAAAAgCAAAAAAQAAQAAQIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ASmartComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartHouse.Composite.Objekat" Collapsed="true">
+    <Position X="4.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACAAICAEAAACBAAQAAQAAAAAAAAQABAAAAA=</HashCode>
+      <FileName>Composite\Objekat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartHouse.Controlers.Device" Collapsed="true">
+    <Position X="10.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAQAQQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controlers\Device.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartHouse.Composite.DnevnaSoba" Collapsed="true">
+    <Position X="1.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAQAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Composite\DnevnaSoba.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartHouse.Composite.Garaza" Collapsed="true">
+    <Position X="3" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAgAAAAAAQAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Composite\Garaza.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartHouse.Composite.Kuhinja" Collapsed="true">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAQAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Composite\Kuhinja.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartHouse.Composite.Kupatilo" Collapsed="true">
+    <Position X="7" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAQAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Composite\Kupatilo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartHouse.Composite.SpavacaSoba" Collapsed="true">
+    <Position X="9" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAACAAAAAEAAAAAQAAAAAAA=</HashCode>
+      <FileName>Composite\SpavacaSoba.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartHouse.Controlers.Grijanje" Collapsed="true">
+    <Position X="11.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAEAAAIAAAAAAAAAAIAAAACAAAA=</HashCode>
+      <FileName>Controlers\Grijanje.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartHouse.Controlers.HVAC" Collapsed="true">
+    <Position X="13.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAEAAAIAAIAAAAAAAIAAAICAAAA=</HashCode>
+      <FileName>Controlers\HVAC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartHouse.Controlers.Osvjetljenje" Collapsed="true">
+    <Position X="16" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAACAAAAAAAACAQAEAAA=</HashCode>
+      <FileName>Controlers\Osvjetljenje.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartHouse.Controlers.PametniZvucnik" Collapsed="true">
+    <Position X="18.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAwAAAAACQAAAAAAAAAAAAAAAACAAAAAAAQCAA=</HashCode>
+      <FileName>Controlers\PametniZvucnik.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartHouse.Controlers.SigurnosniSustav" Collapsed="true">
+    <Position X="20.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIgAACAAACACAAAAQAAAQAAAAAAQAAAAAgAQAAA=</HashCode>
+      <FileName>Controlers\SigurnosniSustav.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SmartHouse.Controlers.TV" Collapsed="true">
+    <Position X="22.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAIAAAAAAAAACABCAAgAgAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Controlers\TV.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
