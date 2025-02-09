@@ -29,8 +29,20 @@ namespace SmartHouse.Composite
 
         public override void prikazDetalja()
         {
-            Console.WriteLine($"+ ID: {ID},Prostorija: {Naziv}");
-            Console.WriteLine($"  Broj uređaja: {_components.Count}");
+            Console.WriteLine($"+ ID: {ID}, Prostorija: {Naziv}");
+
+            int brojSpratova = this.BrojKomponenti<Sprat>();
+            int brojSoba = this.BrojKomponenti<Soba>();
+            int brojUredjaja = this.BrojKomponenti<Device>();
+
+            if (brojSpratova > 0)
+                Console.WriteLine($"  Broj Spratova: {brojSpratova}");
+
+            if (brojSoba > 0)
+                Console.WriteLine($"  Broj Soba: {brojSoba}");
+
+            if (brojUredjaja > 0)
+                Console.WriteLine($"  Broj Uredjaja: {brojUredjaja}");
             foreach (var component in _components)
             {
                 component.prikazDetalja();     
@@ -145,6 +157,9 @@ namespace SmartHouse.Composite
             }
         }
     }
+    // Ovaj dolje dio nam i ne treba stablo se moze formirati i sa klasom Objekat
+    // ali iz razloga sto zelimo da zabranimo da se na sobu moze dodavati vrh nekog cvora
+    // koji bi trebao da predstavlja kucu, implementirali smo ovo dolje
     public class Soba : Objekat
     {
         public Soba(string naziv, string id) : base(naziv, id) { }
